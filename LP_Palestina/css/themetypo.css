@@ -1,0 +1,309 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900italic,900&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext);
+
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    background-color: #ffffff;
+    font-weight: 300;
+}
+
+/* Heading Typo */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    color: #777777;
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px 0px 8px 0px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #777777;
+}
+
+p a {
+    color: #777777;
+}
+/* Peragraph Typo */
+p {
+    margin-bottom: 10px;
+    line-height: 27px;
+}
+
+a {
+    color: rgba(241,91,38,1);
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+figure {
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+strong {
+    color: #777777;
+}
+
+iframe {
+    border: none;
+    float: left;
+    width: 100%;
+}
+/* Form Input Typo */
+select {
+    border: 1px solid #d2d2d2;
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+label {
+    color: #333333;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    border: 1px solid #d2d2d2;
+    color: #3d3d3d;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 20px;
+    outline: none;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+form p {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+form p span i {
+    color: #474747;
+    left: 16px;
+    position: absolute;
+    top: 13px;
+}
+/* ThemeUnit Style's */
+li {
+    line-height: 28px;
+    list-style: disc outside none;
+}
+ul ul {
+    margin-left: 20px;
+}
+ol {
+    float: none;
+    list-style: decimal;
+    padding-left: 15px;
+}
+ol ol {
+    margin-left: 20px;
+}
+ol li {
+    list-style: decimal;
+    width: 100%;
+}
+table {
+    background-color: transparent;
+    max-width: 100%;
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+    border-top: 1px solid #d2d2d2;
+    border: 1px solid #d2d2d2;
+    line-height: 2.5;
+    padding-left: 7px;
+    vertical-align: top;
+}
+table thead tr th {
+    border-top: 1px solid #d2d2d2;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {border-top: 1px solid #d2d2d2;}
+table > thead > tr > th {
+    border-bottom: 2px solid #d2d2d2;
+    vertical-align: bottom;
+}
+table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > th, table > thead:first-child > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > td {border-bottom: 0;}
+table > tbody + tbody {
+    border-top: 2px solid #d2d2d2;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 12px 16px;
+}
+p ins {
+    color: #999;
+}
+dl dd {
+    margin-left: 20px;
+}
+address {
+    font-style: italic;
+}
+
+.fullsection {
+    width: 100%;
+    padding: 0px;
+}
+.fullsection .row {
+    margin: 0px;
+}
+.fullsection [class*="col-md-"] {
+    padding: 0px;
+}
+.full-content {
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+.full-content .row { margin: 0px; }
+.thememargin { margin: 0px 0px 30px 0px; }
+.kd-pagesection {
+    float: left;
+    width: 100%;
+}
+::-webkit-input-placeholder {color: #666666;}
+:-moz-placeholder { color: #666666; opacity: 1; }
+::-moz-placeholder { color: #666666; opacity: 1; }
+:-ms-input-placeholder {color: #666666;}
+
+.kode-newslatter ::-webkit-input-placeholder        {color: #b5b5b5;}
+.kode-newslatter :-moz-placeholder                  { color: #b5b5b5; opacity: 1; }
+.kode-newslatter ::-moz-placeholder                 { color: #b5b5b5; opacity: 1; }
+.kode-newslatter :-ms-input-placeholder             {color: #b5b5b5;}
+
+.widget-search .kode-search ::-webkit-input-placeholder        {color: #666;}
+.widget-search .kode-search :-moz-placeholder                  { color: #666; opacity: 1; }
+.widget-search .kode-search ::-moz-placeholder                 { color: #666; opacity: 1; }
+.widget-search .kode-search :-ms-input-placeholder             {color: #666;}
+
+::selection {
+    background: #58c333;
+    color:#ffffff;
+}
+::-webkit-selection {
+    background: #58c333;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: #58c333;
+    color: #ffffff;
+}
+audio, video {
+    width: 100%;
+    float: left;
+}
+.mejs-container {
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 57%;
+}
+.mejs-overlay, .mejs-poster {
+  width: 100% !important;
+  height: 100% !important;
+}
+.mejs-mediaelement video {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.parallex-btn,.navbar-nav li a,.list-price span,.widget-text ul li,.widget-recentpost ul li time,
+.kode-newslatter form input[type="submit"],.kode-copyright p,.footer-nav ul li a,
+.widget-search .kode-search input[type="text"],.event-widget-info a,.kode-main-action span,
+#kodecomments ul li .text .replay-btn,.voluntree-detail ul li,.player-nav li a,.accordion,
+.services-wrap a {
+    font-family: 'Exo', sans-serif;
+}
+.kode-parallex-info-two h2,.kode-parallex-info-two h4,.kode-parallex-info-two h6,.kode-parallex-info-two a,
+.kode-parallex-info-two span,.kode-couses-options li {
+    font-family: 'PT Sans', sans-serif;
+}
+.kode-parallex-info h2 {
+    font-family: 'Oswald', sans-serif;
+}
+.parallex-bg {
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+.parallex-bgtwo {
+    background-size: inherit !important;
+    background-attachment: fixed !important;
+    background-position: top center !important;
+}
+.kode-pagesection {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 34px !important;
+    top: -34px;
+}
