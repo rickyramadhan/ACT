@@ -1,0 +1,848 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bird (v1) - Responsive admin dashboard theme by Followtechnique</title>	
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="144x144">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="114x114">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="72x72">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png">
+	<link href="assets/images/favicon.ico" rel="icon" type="image/png">
+	<link href="assets/images/favicon.ico" rel="shortcut icon">
+
+	<!-- Global stylesheets -->
+	<link href="fonts/fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-extended.css" rel="stylesheet" type="text/css">
+	<link href="css/plugins.css" rel="stylesheet" type="text/css">
+	<link href="css/color-system.css" rel="stylesheet" type="text/css">
+	<link href="css/media.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="bootstrap_modals.htm" id="style">
+	<link type="text/css" rel="stylesheet" href="bootstrap_modals.htm" id="theme">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/fancybox.min.js"></script>	
+	<script src="js/app.js"></script></head>
+<body>
+<!-- Main navbar -->
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-header">
+		<a class="sidebar-mobile-toggle visible-xs"><i class="fa fa-ellipsis-v"></i></a>
+		<a class="navbar-brand" href="index.htm"></a>
+		<a class="sidebar-control sidebar-toggle hidden-xs pull-right"><i class="fa fa-bars"></i></a>
+	</div>
+	<ul class="navbar-right">
+		<li class="dropdown clearfix"> 
+			<a class="dropdown-toggle" id="settings" data-toggle="dropdown" aria-expanded="false"> <i class="fa fa-cog"></i></a> 
+			<ul class="dropdown-menu dropdown-menu-themes" aria-labelledby="settings"> 
+				<li class="dropdown-header">Styles</li>
+				<ul class="clearfix">
+					<li class="color-option style dark" data-popup="tooltip" title="Dark Theme" theme="dark"></li> 
+					<li class="color-option style light" data-popup="tooltip" title="Light Theme" theme="light"></li>
+					<li class="color-option style default" data-popup="tooltip" title="Default Theme" theme=""></li>					
+				</ul>
+				<li role="separator" class="divider"></li>
+				<li class="dropdown-header">Themes</li>
+				<ul class="clearfix">
+					<li class="color-option theme pink" data-popup="tooltip" title="Pink" theme="pink"></li> 					
+					<li class="color-option theme purple" data-popup="tooltip" title="Purple" theme="purple"></li>
+					<li class="color-option theme indigo" data-popup="tooltip" title="Indigo" theme="indigo"></li> 
+					<li class="color-option theme blue" data-popup="tooltip" title="Blue" theme="blue"></li>
+					<li class="color-option theme teal" data-popup="tooltip" title="Teal" theme="teal"></li> 
+					<li class="color-option theme lime" data-popup="tooltip" title="Lime" theme="lime"></li>
+					<li class="color-option theme amber" data-popup="tooltip" title="Amber" theme="amber"></li> 
+					<li class="color-option theme brown" data-popup="tooltip" title="Brown" theme="brown"></li>					
+					<li class="color-option theme slate" data-popup="tooltip" title="Slate" theme="slate"></li>
+					<li class="color-option theme grey" data-popup="tooltip" title="Grey" theme="grey"></li>
+					<li class="color-option theme default" data-popup="tooltip" title="Default" theme=""></li> 					
+				</ul>
+			</ul> 
+		</li>
+		<li class="dropdown notifications">
+			<a class="dropdown-toggle" data-toggle="dropdown">
+				<i class="fa fa-bell"></i>		
+				<span class="badge badge-info">5</span>
+			</a>
+			<div class="dropdown-menu">
+				<ul class="media-list media-list-linked">
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user1.png" class="img-circle img-sm" alt="">							
+						</div>
+						<div class="media-body">
+							<a href="bootstrap_modals.htm#" class="media-heading clearfix">
+								Jane Elliott
+								<span class="media-annotation pull-right">04:58</span>
+							</a>
+							<span>Suspendisse vel dolor dui. Cras bibendum elit ac...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user2.png" class="img-circle img-sm" alt="">							
+						</div>
+						<div class="media-body">
+							<a href="bootstrap_modals.htm#" class="media-heading clearfix">
+								Florence Douglas
+								<span class="media-annotation pull-right">12:16</span>
+							</a>
+
+							<span>Aenean aliquam tempor odio nec tincidunt...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user3.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="bootstrap_modals.htm#" class="media-heading clearfix">
+								Eugine Turner
+								<span class="media-annotation pull-right">22:48</span>
+							</a>
+
+							<span>Aliquam erat volutpat. Integer ut molestie elit...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left"><img src="assets/images/users/user4.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="bootstrap_modals.htm#" class="media-heading clearfix">
+								Ann Porter
+								<span class="media-annotation pull-right">Tue</span>
+							</a>
+
+							<span>Maecenas varius bibendum sagittis. Donec porttitor...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left"><img src="assets/images/users/user5.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="bootstrap_modals.htm#" class="media-heading clearfix">
+								Jacqueline Howell
+								<span class="media-annotation pull-right">Mon</span>
+							</a>
+							
+							<span>Cras eleifend gravida ullamcorper. Mauris id congue nunc...</span>
+						</div>
+					</li>
+				</ul>
+				<div class="dropdown-content-footer">
+					<a href="bootstrap_modals.htm#" data-popup="tooltip" title="All messages"><i class="fa fa-comments position-left"></i> Read all notifications</a>
+				</div>
+			</div>
+		</li>			
+	</ul>
+</div>
+<!-- /main navbar -->
+
+<!-- Page container -->
+<div class="page-container" style="min-height:700px">
+
+	<!-- Page content -->
+	<div class="page-content"><!-- Main sidebar -->
+<div class="sidebar sidebar-main hidden-xs">
+	<div class="sidebar-content">
+
+		<!-- User menu -->
+		<div class="sidebar-user">
+			<div class="category-content">
+				<div class="media">
+					<a href="bootstrap_modals.htm#" class="media-left"><img src="assets/images/users/user6.png" class="img-circle img-sm" alt=""></a>
+					<div class="media-body">
+						<span class="media-heading text-semibold">Andrew Brewer</span>
+						<div class="text-size-mini text-muted">
+							Network engineer
+						</div>
+					</div>
+
+					<div class="media-right media-middle">
+						<ul class="icons-list">
+							<li>
+								<a href="login_simple.htm"><i class="fa fa-sign-out"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /user menu -->
+
+		<!-- Main navigation -->
+		<div class="sidebar-category sidebar-category-visible">
+			<div class="category-content no-padding">
+				<ul class="navigation navigation-main navigation-accordion">
+					
+					<!-- Main -->					
+					<li>
+						<a href="index.htm"><i class="fa fa-desktop"></i> <span>Dashboard</span></a>						
+					</li>																			
+					<!-- /Main -->	
+					
+					<!-- Content -->
+					<li class="navigation-header"><span>Content</span> <i class="fa fa-bars" title="Content"></i></li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-th"></i> <span>Bootstrap Components</span></a>
+						<ul>
+							<li class="active"><a href="bootstrap_modals.htm">Modals</a></li>
+							<li><a href="bootstrap_dropdowns.htm">Dropdown menus</a></li>
+							<li><a href="bootstrap_tabs.htm">Tabs component</a></li>										
+							<li><a href="bootstrap_accordions.htm">Accordions</a></li>
+							<li><a href="bootstrap_buttons.htm">Buttons</a></li>																
+							<li><a href="bootstrap_popups.htm">Tooltips and popovers</a></li>
+							<li><a href="bootstrap_alerts.htm">Alerts</a></li>							
+							<li><a href="bootstrap_pagination.htm">Pagination</a></li>
+							<li><a href="bootstrap_labels.htm">Labels and badges</a></li>
+							<li><a href="bootstrap_loaders.htm">Loaders and bars</a></li>																									
+							<li><a href="bootstrap_media.htm">Media objects</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-paper-plane"></i> <span>Appearance</span></a>
+						<ul>
+							<li><a href="appearance_content_panels.htm">Content panels</a></li>							
+							<li><a href="appearance_draggable_panels.htm">Draggable panels</a></li>										
+							<li><a href="appearance_typography.htm">Typography</a></li>
+							<li><a href="appearance_helper_classes.htm">Helper classes</a></li>							
+							
+						</ul>
+					</li>													
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-star"></i> <span>Icons</span></a>
+						<ul>
+							<li><a href="icons_glyphicons.htm">Glyphicons</a></li>							
+							<li><a href="icons_fontawesome.htm">Font awesome</a></li>
+							<li><a href="icons_icomoon.htm">Icomoon</a></li>
+						</ul>
+					</li>
+					<li><a href="animations.htm"><i class="fa fa-spinner fa-pulse"></i> <span>CSS3 Animations</span></a></li>					
+					<li><a href="color_system.htm"><i class="fa fa-eyedropper"></i> <span>Color system</span></a></li>	
+					<li><a href="grid_system.htm"><i class="fa fa-th-large"></i> <span>Grid system</span></a></li>					
+					<!-- /Content -->
+					
+					<!-- Forms -->
+					<li class="navigation-header"><span>Forms</span> <i class="fa fa-check-square-o" title="Forms"></i></li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-pencil"></i> <span>Form components</span></a>
+						<ul>
+							<li><a href="form_basic.htm">Basic inputs</a></li>
+							<li><a href="form_groups.htm">Input groups</a></li>
+							<li><a href="form_checkboxes_radios.htm">Checkboxes &amp; radios</a></li>							
+							<li><a href="form_select2.htm">Select2 selects</a></li>														
+							<li><a href="form_tag_inputs.htm">Tag inputs</a></li>	
+							<li><a href="form_sliders_noui.htm">NoUI sliders</a></li>														
+							<li><a href="form_wizard.htm">Form Wizard</a></li>										
+						</ul>
+					</li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-text-height"></i> <span>Text Editors</span></a>
+						<ul>
+							<li><a href="editor_ckeditor.htm">CKEditor</a></li>
+							<li><a href="editor_tinymce.htm">TinyMCE editor</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-eyedropper"></i> <span>Pickers</span></a>
+						<ul>
+							<li><a href="pickers_date.htm">Date & Time pickers</a></li>
+							<li><a href="pickers_colors.htm">Color pickers</a></li>							
+						</ul>
+					</li>							
+					<!-- /forms -->				
+
+					<!-- Data & charts -->
+					<li class="navigation-header"><span>Charts &amp; Graphs</span> <i class="fa fa-area-chart" title="Charts &amp; Graphs"></i></li>																									
+					<li><a href="bootstrap_modals.htm#"><i class="fa fa-pie-chart"></i> <span>C3 library</span></a>
+						<ul>
+							<li><a href="charts_c3_lines_areas.htm">Lines &amp; areas</a></li>
+							<li><a href="charts_c3_bars_pies.htm">Bars &amp; pies</a></li>
+							<li><a href="charts_c3_advanced.htm">Advanced examples</a></li>
+							<li><a href="charts_c3_chart_axis.htm">Chart axis</a></li>
+							<li><a href="charts_c3_grid_options.htm">Grid options</a></li>
+						</ul>
+					</li>					
+					<li><a href="bootstrap_modals.htm#"><i class="fa fa-line-chart"></i> <span>Google charts</span></a>
+						<ul>
+							<li><a href="charts_google_lines.htm">Line charts</a></li>
+							<li><a href="charts_google_bars.htm">Bar charts</a></li>
+							<li><a href="charts_google_pies.htm">Pie charts</a></li>
+							<li><a href="charts_google_bubbles.htm">Bubble &amp; scatter charts</a></li>							
+						</ul>
+					</li>						
+					<!-- /data & charts -->
+
+					<!-- Extensions -->
+					<li class="navigation-header"><span>Extensions</span> <i class="fa fa-puzzle-piece" title="Extensions"></i></li>
+					<li><a href="extensions_pnotify.htm"><i class="fa fa-warning"></i> <span>PNotify notifications</span></a></li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-cloud-upload"></i> <span>File uploaders</span></a>
+						<ul>
+							<li><a href="extensions_bootstrap.htm">Bootstrap file uploader</a></li>
+							<li><a href="extensions_dropzone.htm">Dropzone</a></li>																
+						</ul>
+					</li>
+					<li><a href="extension_calendar.htm"><i class="fa fa-calendar"></i> <span>Event calendars</span></a></li>						
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-map"></i> <span>Maps integration</span></a>
+						<ul>
+							<li><a href="maps_vector.htm">Vector maps</a></li>
+							<li>
+								<a href="bootstrap_modals.htm#">Google maps</a>
+								<ul>
+									<li><a href="maps_google_basic.htm">Basics</a></li>									
+									<li><a href="maps_google_markers.htm">Markers</a></li>									
+									<li><a href="maps_google_layers.htm">Layers</a></li>
+								</ul>
+							</li>							
+						</ul>
+					</li>								
+					<!-- /extensions -->
+
+					<!-- Tables -->
+					<li class="navigation-header"><span>Tables</span> <i class="fa fa-table" title="Tables"></i></li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-table"></i> <span>Basic tables</span></a>
+						<ul>
+							<li><a href="table_basic.htm">Basic examples</a></li>
+							<li><a href="table_borders.htm">Table borders</a></li>
+							<li><a href="table_sizing.htm">Table sizing</a></li>							
+							<li><a href="table_styling.htm">Table styling</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-th-large"></i> <span>Data tables</span></a>
+						<ul>
+							<li><a href="datatable_basic.htm">Basic datatable</a></li>																					
+							<li><a href="datatable_advanced.htm">Advanced datatables</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-plug"></i> <span>Data tables extensions</span></a>
+						<ul>							
+							<li><a href="datatable_extension_row_reorder.htm">Row reorder</a></li>
+							<li><a href="datatable_extension_column_reorder.htm">Columns reorder</a></li>
+							<li><a href="datatable_extension_state_saving.htm">State Saving</a></li>
+							<li><a href="datatable_extension_fixed_columns.htm">Fixed columns</a></li>
+							<li><a href="datatable_extension_fixed_header.htm">Fixed header</a></li>
+							<li><a href="datatable_extension_autofill.htm">Auto fill</a></li>
+							<li><a href="datatable_extension_key_table.htm">Key table</a></li>
+							<li><a href="datatable_extension_export_options.htm">Export options</a></li>
+							<li><a href="datatable_extension_columns_selection.htm">Columns selection</a></li>																					
+						</ul>
+					</li>	
+					<li><a href="datatable_responsive.htm"><i class="fa fa-arrows-alt"></i> <span>Responsive tables</span></a></li>					
+					<!-- /tables -->
+
+					<!-- Pages -->
+					<li class="navigation-header"><span>Pages</span> <i class="fa fa-file-o" title="Pages"></i></li>	
+					<li><a href="page_email.htm"><i class="fa fa-envelope"></i> <span>Email</span></a></li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-money"></i> <span>Invoice</span></a>
+						<ul>
+							<li><a href="invoice_list.htm">Invoice list</a></li>
+							<li><a href="invoice_template.htm">Invoice template</a></li>														
+						</ul>
+					</li>
+					<li><a href="timeline.htm"><i class="fa fa-file-text-o"></i> <span>Timeline</span></a></li>
+					<li><a href="page_tasks.htm"><i class="fa fa-tasks"></i> <span>Tasks</span></a></li>
+					<li><a href="gallery.htm"><i class="fa fa-file-image-o"></i> <span>Media Gallery</span></a></li>
+					<li><a href="search.htm"><i class="fa fa-search"></i> <span>Search</span></a></li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-users"></i> <span>User pages</span></a>
+						<ul>
+							<li><a href="user_cards.htm">Users cards</a></li>
+							<li><a href="user_list.htm">Users list</a></li>
+							<li><a href="user_profile.htm">Simple user profile</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-user-plus"></i> <span>Login &amp; registration</span></a>
+						<ul>
+							<li><a href="login_simple.htm">User login</a></li>							
+							<li><a href="login_registration.htm">Simple registration</a></li>
+							<li><a href="login_registration_advanced.htm">Detailed registration</a></li>
+							<li><a href="login_unlock.htm">Unlock user</a></li>
+							<li><a href="login_recover.htm">Reset password</a></li>
+							<li><a href="login_tabbed.htm">Tabbed form</a></li>									
+						</ul>
+					</li>														
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-info-circle"></i> <span>Support</span></a>
+						<ul>
+							<li><a href="support_faq.htm">FAQ page</a></li>
+							<li><a href="support_knowledgebase.htm">Knowledgebase</a></li>
+							<li><a href="support_center.htm">Support Center</a></li>													
+						</ul>
+					</li>					
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-warning"></i> <span>Error pages</span></a>
+						<ul>
+							<li><a href="error_403.htm">Error 403</a></li>
+							<li><a href="error_404.htm">Error 404</a></li>
+							<li><a href="error_405.htm">Error 405</a></li>
+							<li><a href="error_500.htm">Error 500</a></li>
+							<li><a href="error_503.htm">Error 503</a></li>
+							<li><a href="error_offline.htm">Offline page</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.htm"><i class="fa fa-phone"></i> <span>Contact Page</span></a></li>
+					<!-- /pages -->
+					
+					<!-- Others -->
+					<li class="navigation-header"><span>Extras</span> <i class="fa fa-folder-o" title="Extras"></i></li>
+					<li><a href="page_starter.htm"><i class="fa fa-file-o"></i> <span>Starter Page</span></a></li>					
+					<li>
+						<a href="bootstrap_modals.htm#"><i class="fa fa-sitemap"></i> <span>Menu levels</span></a>
+						<ul>
+							<li><a href="bootstrap_modals.htm#">Second level</a></li>
+							<li>
+								<a href="bootstrap_modals.htm#">Second level with child</a>
+								<ul>
+									<li><a href="bootstrap_modals.htm#">Third level</a></li>
+									<li>
+										<a href="bootstrap_modals.htm#">Third level with child</a>
+										<ul>
+											<li><a href="bootstrap_modals.htm#">Fourth level</a></li>
+											<li><a href="bootstrap_modals.htm#">Fourth level</a></li>
+										</ul>
+									</li>
+									<li><a href="bootstrap_modals.htm#">Third level</a></li>
+								</ul>
+							</li>
+							<li><a href="bootstrap_modals.htm#">Second level</a></li>
+						</ul>
+					</li>
+					<!-- /Others -->
+
+				</ul>
+			</div>
+		</div>
+		<!-- /main navigation -->
+
+	</div>
+</div>
+<!-- /main sidebar -->
+<!-- Main content -->
+<div class="content-wrapper">
+
+	<!-- Page header -->
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-title">
+				<h4><i class="fa fa-th position-left"></i> <span>Modals</span></h4>
+			</div>										
+			<ul class="breadcrumb">
+				<li><a href="index.htm"><i class="fa fa-home"></i>Home</a></li>				
+				<li>Bootstrap Components</li>
+				<li class="active">Modals</li>
+			</ul>					
+		</div>
+	</div>
+	<!-- /page header -->
+
+	<!-- Content area -->
+	<div class="content">
+	
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Default modal dialog</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_default">Launch</button>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Modal with icons</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_iconified">Launch</button>			
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Mini sized model</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_mini">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Small sized modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_small">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Default sized modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_default">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Large sized modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_large">Launch</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Primary modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal_theme_primary">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Danger modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_theme_danger">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Success modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_theme_success">Launch</button>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Warning modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modal_theme_warning">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Info modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_theme_info">Launch</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-flat text-center">
+					<div class="panel-heading">
+						<h4 class="panel-title">Custom modal</h4>				
+					</div>
+					<div class="panel-body">
+						<button type="button" class="btn bg-pink btn-sm" data-toggle="modal" data-target="#modal_theme_custom">Launch</button>
+					</div>
+				</div>
+			</div>		
+		</div>
+		
+		
+		<!-- Basic modal -->
+		<div id="modal_default" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Basic modal</h4>
+					</div>
+					<div class="modal-body">						
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /basic modal -->
+
+		<!-- Model with icons -->
+		<div id="modal_iconified" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal with icons</h4>
+					</div>
+
+					<div class="modal-body">
+						<div class="alert alert-info alert-styled-left text-blue-800">
+							<span class="text-semibold">Lorem ipsum </span>dolor sit amet						
+						</div>
+						<h4>Lorem ipsum dolor sit amet</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal"><i class="fa fa-close position-left"></i> Close</button>
+						<button class="btn btn-primary"><i class="fa fa-check position-left"></i> Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Model with icons -->
+		
+		<!-- Mini modal -->
+		<div id="modal_mini" class="modal fade">
+			<div class="modal-dialog modal-xs">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Mini modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /mini modal -->
+
+		<!-- Small modal -->
+		<div id="modal_small" class="modal fade">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Small modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /small modal -->
+
+		<!-- Large modal -->
+		<div id="modal_large" class="modal fade">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Large modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /large modal -->
+		
+		<!-- Primary modal -->
+		<div id="modal_theme_primary" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content bg-primary">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Primary modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-danger">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /primary modal -->
+
+		<!-- Danger modal -->
+		<div id="modal_theme_danger" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content bg-danger">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Danger modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /default modal -->
+
+		<!-- Success modal -->
+		<div id="modal_theme_success" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content bg-success">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Success modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /success modal -->
+
+		<!-- Warning modal -->
+		<div id="modal_theme_warning" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content bg-warning">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Warning modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /warning modal -->
+
+		<!-- Info modal -->
+		<div id="modal_theme_info" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content bg-info">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Info modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /info modal -->
+
+		<!-- Custom model -->
+		<div id="modal_theme_custom" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content bg-pink">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Custom modal color</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /custom model -->
+	<!-- Content area -->
+		
+					<!-- Footer -->
+					<div class="footer pt-20">
+						&copy; 2016 Bird - Admin theme by <a href="http://followtechnique.com" target="_blank">FollowTechnique</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Version - 1.0.0
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+		
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+</body>
+</html>

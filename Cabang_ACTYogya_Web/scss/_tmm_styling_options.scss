@@ -1,0 +1,363 @@
+@import "functions",
+"tmm_settings";
+
+/*
+
+ 		TABLE OF CONTENTS:
+=====================================
+01. Website Width
+02. Global Styling
+	- General Color set
+	- General Site Colors / Font Size
+	- Default Link Style
+	- Site Title Colors / Font Size
+	- Site Footer Colors
+03. Site Logo
+04. Header
+	- Header Top Section Colors
+	- Header Middle Section Colors
+	- Modal Window Colors
+05. RTL Support
+06. Heading Styles
+07. Main Navigation
+08. Buttons Styling
+	- Default Buttons
+	- Special Buttons
+09. Events Styling
+10. Widgets Styling
+	- Widget Font Families
+	- Widget Font Sizes
+	- Widget Font Weights
+	- Widget Text Colors
+	- Widget Sheet Colors
+	- Widget Category Colors
+	- Widget Border styles
+	- Widget Metrostyle
+11. Shortcodes
+	- Font styles for titles
+	- Paragraph font styles
+	- Font styles for links
+	- Border styles
+	- Dropcaps
+	- Social Icons
+12. Alert Boxes
+13. Tooltips
+14. Form Elements Styling
+15. Dividers
+
+*/
+
+
+
+
+
+// 01. Website Width
+// =====================================
+
+$row-width							: rem-calc(1170);
+
+// 02. Global Styling
+// =====================================
+
+// General Color set
+$white								: #ffffff;
+$white-smoke						: #F5F5F5;
+$gainsboro							: #dddddd;
+$base								: #aaaaaa;
+$monsoon							: #777777;
+$oil								: #333333;
+$jet								: #222222;
+$black								: #000000;
+$light-black						: #424246;
+$icons-color						: #b4b4b4;
+
+// General Site Colors / Font Size
+
+$base-font-size						: 16px;
+$body-font-color					: #777777;
+
+// Default Link Style
+$anchor-font-color					: #14b3e4;
+$anchor-font-color-hover			: scale-color($anchor-font-color, $lightness: -14%);
+
+// Site Title Colors / Font Size
+$default-title-color				: #262626;
+$section-title-color				: #969696;
+$page-title-font-color				: #bebebe;
+$section-title-font-size			: rem-calc(26);
+
+// Site Footer Colors
+$footer-bottom-color				: #959595;
+$footer-border-top-color			: #313133;
+
+// 03. Site Logo
+// =====================================
+
+$logo-font-size						: rem-calc(34);
+$logo-font-family					: "Roboto Slab";
+$logo-first-part-color				: #262626;
+$logo-first-part-color				: #262626;
+$logo-second-part-color				: #969696;
+$logo-first-part-color-2			: #fff;
+$logo-second-part-color-2			: #b4b4b4;
+
+// 04. Header
+// =====================================
+
+// Header Top Section Colors
+$header-top-bg						: #e1e1e1;
+$header-top-bg-2					: #3a3a3c;
+$header-top-bg-3					: #174661;
+
+// Header Middle Section Colors
+$header-middle-bg					: #f5f5f5;
+$header-middle-bg-2					: #424246;
+$header-middle-bg-3					: #11547b;
+
+$body-bg							: #f5f5f5;
+$footer-top-bg						: #3a3a3c;
+$footer-bottom-bg					: #313133;
+
+// Modal Window Colors
+$account-link-color					: #818181;
+$account-icon-color					: #d5d5d6;
+
+// 05. RTL Support
+// =====================================
+
+$text-direction						: ltr;
+$default-float						: left;
+
+// 06. Heading Styles
+// =====================================
+
+$h1-font-family						: "Roboto Slab";
+$h1-font-color						: #222222;
+$h1-font-size						: rem-calc(34);
+
+$h2-font-family						: "Roboto Slab";
+$h2-font-color						: #222222;
+$h2-font-size						: rem-calc(25);
+
+$h3-font-family						: "Roboto Slab";
+$h3-font-color						: #222222;
+$h3-font-size						: rem-calc(18);
+
+$h4-font-family						: "Roboto Slab";
+$h4-font-color						: #222222;
+$h4-font-size						: rem-calc(16);
+
+$h5-font-family						: "Roboto Slab";
+$h5-font-color						: #222222;
+$h5-font-size						: rem-calc(16);
+
+$h6-font-family						: "Roboto Slab";
+$h6-font-color						: #222222;
+$h6-font-size						: rem-calc(16);
+
+// 07. Main Navigation
+// =====================================
+
+$header-navigation-font-family		: "Roboto";
+$header-font-size					: rem-calc(15);
+$sub-menu-font-size					: rem-calc(15);
+$header-navigation-font-color		: #424246;
+
+$sub-menu-font-color				: #969696;
+$sub-menu-hover-bg					: #f9f9f9;
+$sub-menu-font-size					: rem-calc(15);
+$sub-menu-link-border-color			: #eaeaea;
+
+$mega-menu-bg						: #ffffff;
+
+$box-shadow-color					: #d8d8d8;
+
+$arrow-right-icon					: '\ea0f';
+$arrow-right-color					: #c7c7c7;
+$arrow-icon-size					: rem-calc(16);
+
+// 08. Buttons Styling
+// =====================================
+
+// Default Buttons
+$button-font-family					: "Roboto";
+$button-font-size					: rem-calc(18);
+$button-default-font-color			: #000000;
+$button-default-border-color		: #262626;
+$button-default-bg-color			: #f5f5f5;
+$button-default-hover-font-color	: #fff;
+$button-default-hover-border-color	: transparent;
+$button-default-hover-bg-color		: #14b3e4;
+
+// Special Buttons
+$donate-button-bg					: #ca2139;
+$button-font-color					: #ffffff;
+$button-bg-color					: #14b3e4;
+$button-bg-color-hover				: #f5f5f5;
+$button-border-color				: #000000;
+$button-border-color-hover			: #262626;
+$button-margin-bottom				: rem-calc(10);
+
+// 09. Events Styling
+// =====================================
+
+$event-title-bg						: #14b3e4;
+$event-date-bg						: #14b3e4;
+
+// 10. Widgets Styling
+// =====================================
+
+// Widget Font Families
+$widget-font-family-title			: 'Roboto Slab', serif;
+$widget-font-family-text			: 'Roboto Slab', serif;
+$widget-font-family-text-small		: 'Roboto', sans-serif;
+
+// Widget Font Sizes
+$widget-font-size-title				: rem-calc(16);
+$widget-font-size-text				: rem-calc(14);
+$widget-font-size-text-small		: rem-calc(12);
+
+// Widget Font Weights
+$widget-font-weight-200				: 200;
+$widget-font-weight-400				: 400;
+$widget-font-weight-600				: 600;
+
+// Widget Text Colors
+$widget-sidebar-title-color			: #ffffff;
+$widget-sidebar-title-bg-color		: #11547b;
+
+$widget-sidebar-sub-color			: #262626;
+$widget-sidebar-sub-hover-color		: #ffffff;
+$widget-sidebar-text-color			: #777777;
+$widget-sidebar-text-hover-color	: #8ad9f2;
+$widget-sidebar-small-color			: #b4b4b4;
+$widget-sidebar-small-hover-color	: #ffffff;
+$widget-sidebar-icon-color			: #bebebe;
+$widget-sidebar-icon-hover-color	: #8ad9f2;
+$widget-sidebar-list-color			: #14b3e4;
+$widget-sidebar-list-hover-color	: #959595;
+
+$widget-footer-title-color			: #f2f2f2;
+
+$widget-footer-sub-color			: #959595;
+$widget-footer-sub-hover-color		: #ffffff;
+$widget-footer-text-color			: #959595;
+$widget-footer-text-hover-color		: #bebebe;
+$widget-footer-icon-color			: #bebebe;
+$widget-footer-icon-hover-color		: #8ad9f2;
+$widget-footer-small-color			: #bebebe;
+$widget-footer-small-hover-color	: #ffffff;
+$widget-footer-list-color			: #14b3e4;
+$widget-footer-list-hover-color		: #959595;
+
+// Widget Sheet Colors
+$widget-sidebar-sheet-color			: #ffffff;
+$widget-sidebar-sheet-hover-color	: #14b3e4;
+
+$widget-footer-sheet-color			: #343436;
+$widget-footer-sheet-hover-color	: #14b3e4;
+
+// Widget Category Colors
+$widget-cat-text-color				: #ffffff;
+$widget-cat-text-hover-color		: #90afc1;
+$widget-cat-border-color			: #3f7493;
+$widget-cat-bg-color				: #11547b;
+
+// Widget Border styles
+$widget-sidebar-border-style		: solid;
+$widget-sidebar-border-color		: #e9e9e9;
+$widget-sidebar-border-width		: 1px;
+
+$widget-footer-border-style			: solid;
+$widget-footer-border-color			: #575758;
+$widget-footer-border-width			: 1px;
+
+// Widget Metrostyle
+$metro-text-color-1					: #ffffff;
+$metro-text-color-2					: #424246;
+
+$metro-bg-color-1					: #ffffff;	// White
+$metro-bg-color-2					: #ff615e;	// Red
+$metro-bg-color-3					: #14b3e4;	// Blue
+$metro-bg-color-4					: #424246;	// Dark
+
+// 11. Shortcodes
+// =====================================
+
+// Font styles for titles
+$widget-title-font-family			: $font-family-serif;
+$widget-title-font-size				: rem-calc(16);
+$widget-title-font-weight			: 400;
+
+// Paragraph font styles
+$paragraph-font-color				: #959595;
+$paragraph-font-size				: rem-calc(14);
+
+// Font styles for links
+$widget-link-color					: $anchor-font-color;
+$widget-link-font-size				: rem-calc(14);
+
+// Border styles
+$widget-border-style				: solid;
+$widget-border-color				: #575758;
+$widget-border-width				: 1px;
+
+// Dropcaps
+$dropcap-width						: 60px;
+$dropcap-height						: 60px;
+
+$quote-meta-font-color				: #b4b4b4;
+
+// Social Icons
+$social-icons-bg					: #d0d0d0;
+
+// 12. Alert Boxes
+// =====================================
+
+$info-background					: #a6deef;
+$info-border-color					: #57c7e9;
+$info-font-color					: #14b3e4;
+
+$notice-background					: #f9e4ba;
+$notice-border-color				: #fbd47f;
+$notice-font-color					: #fec64d;
+
+$error-background					: #f4c5c4;
+$error-border-color					: #f49693;
+$error-font-color					: #f36d6a;
+
+$success-background					: #9fe6d7;
+$success-border-color				: #49d6b9;
+$success-font-color					: #00c99f;
+
+$default-background					: #f9f9f9;
+$default-border-color				: #e7e7e7;
+$default-font-color					: #262626;
+
+// 13. Tooltips
+// =====================================
+
+$tooltip-font-color					: #7e7e7e;
+$tooltip-bg-color					: #ffffff;
+$tooltip-border-color				: #e2e2e2;
+
+// 14. Form Elements Styling
+// =====================================
+
+$form-font-color					: #777777;
+$form-input-bg						: #ffffff;
+$focus-border-color					: #14b3e4;
+$placeholder-color					: #bebebe;
+$form-input-padding					: rem-calc(16 18);
+
+$footer-placeholder-color			: #878787;
+$footer-form-input-bg				: #313133;
+$footer-form-input-bg				: #313133;
+
+// 15. Dividers
+// =====================================
+
+$divider-color-1					: #ababab;
+$divider-color-3					: #262626;
+$tooltip-font-color					: #262626;
+$dashed-border-color				: #ababab;

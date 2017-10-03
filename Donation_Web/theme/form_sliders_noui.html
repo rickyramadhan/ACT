@@ -1,0 +1,1977 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bird (v1) - Responsive admin dashboard theme by Followtechnique</title>	
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="144x144">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="114x114">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="72x72">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png">
+	<link href="assets/images/favicon.ico" rel="icon" type="image/png">
+	<link href="assets/images/favicon.ico" rel="shortcut icon">
+
+	<!-- Global stylesheets -->
+	<link href="fonts/fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-extended.css" rel="stylesheet" type="text/css">
+	<link href="css/plugins.css" rel="stylesheet" type="text/css">
+	<link href="css/color-system.css" rel="stylesheet" type="text/css">
+	<link href="css/media.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="form_sliders_noui.htm" id="style">
+	<link type="text/css" rel="stylesheet" href="form_sliders_noui.htm" id="theme">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/fancybox.min.js"></script>	
+	<script src="js/app.js"></script><script src="js/forms/nouislider.min.js"></script>
+</head>
+<body>
+<!-- Main navbar -->
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-header">
+		<a class="sidebar-mobile-toggle visible-xs"><i class="fa fa-ellipsis-v"></i></a>
+		<a class="navbar-brand" href="index.htm"></a>
+		<a class="sidebar-control sidebar-toggle hidden-xs pull-right"><i class="fa fa-bars"></i></a>
+	</div>
+	<ul class="navbar-right">
+		<li class="dropdown clearfix"> 
+			<a class="dropdown-toggle" id="settings" data-toggle="dropdown" aria-expanded="false"> <i class="fa fa-cog"></i></a> 
+			<ul class="dropdown-menu dropdown-menu-themes" aria-labelledby="settings"> 
+				<li class="dropdown-header">Styles</li>
+				<ul class="clearfix">
+					<li class="color-option style dark" data-popup="tooltip" title="Dark Theme" theme="dark"></li> 
+					<li class="color-option style light" data-popup="tooltip" title="Light Theme" theme="light"></li>
+					<li class="color-option style default" data-popup="tooltip" title="Default Theme" theme=""></li>					
+				</ul>
+				<li role="separator" class="divider"></li>
+				<li class="dropdown-header">Themes</li>
+				<ul class="clearfix">
+					<li class="color-option theme pink" data-popup="tooltip" title="Pink" theme="pink"></li> 					
+					<li class="color-option theme purple" data-popup="tooltip" title="Purple" theme="purple"></li>
+					<li class="color-option theme indigo" data-popup="tooltip" title="Indigo" theme="indigo"></li> 
+					<li class="color-option theme blue" data-popup="tooltip" title="Blue" theme="blue"></li>
+					<li class="color-option theme teal" data-popup="tooltip" title="Teal" theme="teal"></li> 
+					<li class="color-option theme lime" data-popup="tooltip" title="Lime" theme="lime"></li>
+					<li class="color-option theme amber" data-popup="tooltip" title="Amber" theme="amber"></li> 
+					<li class="color-option theme brown" data-popup="tooltip" title="Brown" theme="brown"></li>					
+					<li class="color-option theme slate" data-popup="tooltip" title="Slate" theme="slate"></li>
+					<li class="color-option theme grey" data-popup="tooltip" title="Grey" theme="grey"></li>
+					<li class="color-option theme default" data-popup="tooltip" title="Default" theme=""></li> 					
+				</ul>
+			</ul> 
+		</li>
+		<li class="dropdown notifications">
+			<a class="dropdown-toggle" data-toggle="dropdown">
+				<i class="fa fa-bell"></i>		
+				<span class="badge badge-info">5</span>
+			</a>
+			<div class="dropdown-menu">
+				<ul class="media-list media-list-linked">
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user1.png" class="img-circle img-sm" alt="">							
+						</div>
+						<div class="media-body">
+							<a href="form_sliders_noui.htm#" class="media-heading clearfix">
+								Jane Elliott
+								<span class="media-annotation pull-right">04:58</span>
+							</a>
+							<span>Suspendisse vel dolor dui. Cras bibendum elit ac...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user2.png" class="img-circle img-sm" alt="">							
+						</div>
+						<div class="media-body">
+							<a href="form_sliders_noui.htm#" class="media-heading clearfix">
+								Florence Douglas
+								<span class="media-annotation pull-right">12:16</span>
+							</a>
+
+							<span>Aenean aliquam tempor odio nec tincidunt...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user3.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="form_sliders_noui.htm#" class="media-heading clearfix">
+								Eugine Turner
+								<span class="media-annotation pull-right">22:48</span>
+							</a>
+
+							<span>Aliquam erat volutpat. Integer ut molestie elit...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left"><img src="assets/images/users/user4.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="form_sliders_noui.htm#" class="media-heading clearfix">
+								Ann Porter
+								<span class="media-annotation pull-right">Tue</span>
+							</a>
+
+							<span>Maecenas varius bibendum sagittis. Donec porttitor...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left"><img src="assets/images/users/user5.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="form_sliders_noui.htm#" class="media-heading clearfix">
+								Jacqueline Howell
+								<span class="media-annotation pull-right">Mon</span>
+							</a>
+							
+							<span>Cras eleifend gravida ullamcorper. Mauris id congue nunc...</span>
+						</div>
+					</li>
+				</ul>
+				<div class="dropdown-content-footer">
+					<a href="form_sliders_noui.htm#" data-popup="tooltip" title="All messages"><i class="fa fa-comments position-left"></i> Read all notifications</a>
+				</div>
+			</div>
+		</li>			
+	</ul>
+</div>
+<!-- /main navbar -->
+
+<!-- Page container -->
+<div class="page-container" style="min-height:700px">
+
+	<!-- Page content -->
+	<div class="page-content"><!-- Main sidebar -->
+<div class="sidebar sidebar-main hidden-xs">
+	<div class="sidebar-content">
+
+		<!-- User menu -->
+		<div class="sidebar-user">
+			<div class="category-content">
+				<div class="media">
+					<a href="form_sliders_noui.htm#" class="media-left"><img src="assets/images/users/user6.png" class="img-circle img-sm" alt=""></a>
+					<div class="media-body">
+						<span class="media-heading text-semibold">Andrew Brewer</span>
+						<div class="text-size-mini text-muted">
+							Network engineer
+						</div>
+					</div>
+
+					<div class="media-right media-middle">
+						<ul class="icons-list">
+							<li>
+								<a href="login_simple.htm"><i class="fa fa-sign-out"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /user menu -->
+
+		<!-- Main navigation -->
+		<div class="sidebar-category sidebar-category-visible">
+			<div class="category-content no-padding">
+				<ul class="navigation navigation-main navigation-accordion">
+					
+					<!-- Main -->					
+					<li>
+						<a href="index.htm"><i class="fa fa-desktop"></i> <span>Dashboard</span></a>						
+					</li>																			
+					<!-- /Main -->	
+					
+					<!-- Content -->
+					<li class="navigation-header"><span>Content</span> <i class="fa fa-bars" title="Content"></i></li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-th"></i> <span>Bootstrap Components</span></a>
+						<ul>
+							<li><a href="bootstrap_modals.htm">Modals</a></li>
+							<li><a href="bootstrap_dropdowns.htm">Dropdown menus</a></li>
+							<li><a href="bootstrap_tabs.htm">Tabs component</a></li>										
+							<li><a href="bootstrap_accordions.htm">Accordions</a></li>
+							<li><a href="bootstrap_buttons.htm">Buttons</a></li>																
+							<li><a href="bootstrap_popups.htm">Tooltips and popovers</a></li>
+							<li><a href="bootstrap_alerts.htm">Alerts</a></li>							
+							<li><a href="bootstrap_pagination.htm">Pagination</a></li>
+							<li><a href="bootstrap_labels.htm">Labels and badges</a></li>
+							<li><a href="bootstrap_loaders.htm">Loaders and bars</a></li>																									
+							<li><a href="bootstrap_media.htm">Media objects</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-paper-plane"></i> <span>Appearance</span></a>
+						<ul>
+							<li><a href="appearance_content_panels.htm">Content panels</a></li>							
+							<li><a href="appearance_draggable_panels.htm">Draggable panels</a></li>										
+							<li><a href="appearance_typography.htm">Typography</a></li>
+							<li><a href="appearance_helper_classes.htm">Helper classes</a></li>							
+							
+						</ul>
+					</li>													
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-star"></i> <span>Icons</span></a>
+						<ul>
+							<li><a href="icons_glyphicons.htm">Glyphicons</a></li>							
+							<li><a href="icons_fontawesome.htm">Font awesome</a></li>
+							<li><a href="icons_icomoon.htm">Icomoon</a></li>
+						</ul>
+					</li>
+					<li><a href="animations.htm"><i class="fa fa-spinner fa-pulse"></i> <span>CSS3 Animations</span></a></li>					
+					<li><a href="color_system.htm"><i class="fa fa-eyedropper"></i> <span>Color system</span></a></li>	
+					<li><a href="grid_system.htm"><i class="fa fa-th-large"></i> <span>Grid system</span></a></li>					
+					<!-- /Content -->
+					
+					<!-- Forms -->
+					<li class="navigation-header"><span>Forms</span> <i class="fa fa-check-square-o" title="Forms"></i></li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-pencil"></i> <span>Form components</span></a>
+						<ul>
+							<li><a href="form_basic.htm">Basic inputs</a></li>
+							<li><a href="form_groups.htm">Input groups</a></li>
+							<li><a href="form_checkboxes_radios.htm">Checkboxes &amp; radios</a></li>							
+							<li><a href="form_select2.htm">Select2 selects</a></li>														
+							<li><a href="form_tag_inputs.htm">Tag inputs</a></li>	
+							<li class="active"><a href="form_sliders_noui.htm">NoUI sliders</a></li>														
+							<li><a href="form_wizard.htm">Form Wizard</a></li>										
+						</ul>
+					</li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-text-height"></i> <span>Text Editors</span></a>
+						<ul>
+							<li><a href="editor_ckeditor.htm">CKEditor</a></li>
+							<li><a href="editor_tinymce.htm">TinyMCE editor</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-eyedropper"></i> <span>Pickers</span></a>
+						<ul>
+							<li><a href="pickers_date.htm">Date & Time pickers</a></li>
+							<li><a href="pickers_colors.htm">Color pickers</a></li>							
+						</ul>
+					</li>							
+					<!-- /forms -->				
+
+					<!-- Data & charts -->
+					<li class="navigation-header"><span>Charts &amp; Graphs</span> <i class="fa fa-area-chart" title="Charts &amp; Graphs"></i></li>																									
+					<li><a href="form_sliders_noui.htm#"><i class="fa fa-pie-chart"></i> <span>C3 library</span></a>
+						<ul>
+							<li><a href="charts_c3_lines_areas.htm">Lines &amp; areas</a></li>
+							<li><a href="charts_c3_bars_pies.htm">Bars &amp; pies</a></li>
+							<li><a href="charts_c3_advanced.htm">Advanced examples</a></li>
+							<li><a href="charts_c3_chart_axis.htm">Chart axis</a></li>
+							<li><a href="charts_c3_grid_options.htm">Grid options</a></li>
+						</ul>
+					</li>					
+					<li><a href="form_sliders_noui.htm#"><i class="fa fa-line-chart"></i> <span>Google charts</span></a>
+						<ul>
+							<li><a href="charts_google_lines.htm">Line charts</a></li>
+							<li><a href="charts_google_bars.htm">Bar charts</a></li>
+							<li><a href="charts_google_pies.htm">Pie charts</a></li>
+							<li><a href="charts_google_bubbles.htm">Bubble &amp; scatter charts</a></li>							
+						</ul>
+					</li>						
+					<!-- /data & charts -->
+
+					<!-- Extensions -->
+					<li class="navigation-header"><span>Extensions</span> <i class="fa fa-puzzle-piece" title="Extensions"></i></li>
+					<li><a href="extensions_pnotify.htm"><i class="fa fa-warning"></i> <span>PNotify notifications</span></a></li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-cloud-upload"></i> <span>File uploaders</span></a>
+						<ul>
+							<li><a href="extensions_bootstrap.htm">Bootstrap file uploader</a></li>
+							<li><a href="extensions_dropzone.htm">Dropzone</a></li>																
+						</ul>
+					</li>
+					<li><a href="extension_calendar.htm"><i class="fa fa-calendar"></i> <span>Event calendars</span></a></li>						
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-map"></i> <span>Maps integration</span></a>
+						<ul>
+							<li><a href="maps_vector.htm">Vector maps</a></li>
+							<li>
+								<a href="form_sliders_noui.htm#">Google maps</a>
+								<ul>
+									<li><a href="maps_google_basic.htm">Basics</a></li>									
+									<li><a href="maps_google_markers.htm">Markers</a></li>									
+									<li><a href="maps_google_layers.htm">Layers</a></li>
+								</ul>
+							</li>							
+						</ul>
+					</li>								
+					<!-- /extensions -->
+
+					<!-- Tables -->
+					<li class="navigation-header"><span>Tables</span> <i class="fa fa-table" title="Tables"></i></li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-table"></i> <span>Basic tables</span></a>
+						<ul>
+							<li><a href="table_basic.htm">Basic examples</a></li>
+							<li><a href="table_borders.htm">Table borders</a></li>
+							<li><a href="table_sizing.htm">Table sizing</a></li>							
+							<li><a href="table_styling.htm">Table styling</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-th-large"></i> <span>Data tables</span></a>
+						<ul>
+							<li><a href="datatable_basic.htm">Basic datatable</a></li>																					
+							<li><a href="datatable_advanced.htm">Advanced datatables</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-plug"></i> <span>Data tables extensions</span></a>
+						<ul>							
+							<li><a href="datatable_extension_row_reorder.htm">Row reorder</a></li>
+							<li><a href="datatable_extension_column_reorder.htm">Columns reorder</a></li>
+							<li><a href="datatable_extension_state_saving.htm">State Saving</a></li>
+							<li><a href="datatable_extension_fixed_columns.htm">Fixed columns</a></li>
+							<li><a href="datatable_extension_fixed_header.htm">Fixed header</a></li>
+							<li><a href="datatable_extension_autofill.htm">Auto fill</a></li>
+							<li><a href="datatable_extension_key_table.htm">Key table</a></li>
+							<li><a href="datatable_extension_export_options.htm">Export options</a></li>
+							<li><a href="datatable_extension_columns_selection.htm">Columns selection</a></li>																					
+						</ul>
+					</li>	
+					<li><a href="datatable_responsive.htm"><i class="fa fa-arrows-alt"></i> <span>Responsive tables</span></a></li>					
+					<!-- /tables -->
+
+					<!-- Pages -->
+					<li class="navigation-header"><span>Pages</span> <i class="fa fa-file-o" title="Pages"></i></li>	
+					<li><a href="page_email.htm"><i class="fa fa-envelope"></i> <span>Email</span></a></li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-money"></i> <span>Invoice</span></a>
+						<ul>
+							<li><a href="invoice_list.htm">Invoice list</a></li>
+							<li><a href="invoice_template.htm">Invoice template</a></li>														
+						</ul>
+					</li>
+					<li><a href="timeline.htm"><i class="fa fa-file-text-o"></i> <span>Timeline</span></a></li>
+					<li><a href="page_tasks.htm"><i class="fa fa-tasks"></i> <span>Tasks</span></a></li>
+					<li><a href="gallery.htm"><i class="fa fa-file-image-o"></i> <span>Media Gallery</span></a></li>
+					<li><a href="search.htm"><i class="fa fa-search"></i> <span>Search</span></a></li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-users"></i> <span>User pages</span></a>
+						<ul>
+							<li><a href="user_cards.htm">Users cards</a></li>
+							<li><a href="user_list.htm">Users list</a></li>
+							<li><a href="user_profile.htm">Simple user profile</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-user-plus"></i> <span>Login &amp; registration</span></a>
+						<ul>
+							<li><a href="login_simple.htm">User login</a></li>							
+							<li><a href="login_registration.htm">Simple registration</a></li>
+							<li><a href="login_registration_advanced.htm">Detailed registration</a></li>
+							<li><a href="login_unlock.htm">Unlock user</a></li>
+							<li><a href="login_recover.htm">Reset password</a></li>
+							<li><a href="login_tabbed.htm">Tabbed form</a></li>									
+						</ul>
+					</li>														
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-info-circle"></i> <span>Support</span></a>
+						<ul>
+							<li><a href="support_faq.htm">FAQ page</a></li>
+							<li><a href="support_knowledgebase.htm">Knowledgebase</a></li>
+							<li><a href="support_center.htm">Support Center</a></li>													
+						</ul>
+					</li>					
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-warning"></i> <span>Error pages</span></a>
+						<ul>
+							<li><a href="error_403.htm">Error 403</a></li>
+							<li><a href="error_404.htm">Error 404</a></li>
+							<li><a href="error_405.htm">Error 405</a></li>
+							<li><a href="error_500.htm">Error 500</a></li>
+							<li><a href="error_503.htm">Error 503</a></li>
+							<li><a href="error_offline.htm">Offline page</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.htm"><i class="fa fa-phone"></i> <span>Contact Page</span></a></li>
+					<!-- /pages -->
+					
+					<!-- Others -->
+					<li class="navigation-header"><span>Extras</span> <i class="fa fa-folder-o" title="Extras"></i></li>
+					<li><a href="page_starter.htm"><i class="fa fa-file-o"></i> <span>Starter Page</span></a></li>					
+					<li>
+						<a href="form_sliders_noui.htm#"><i class="fa fa-sitemap"></i> <span>Menu levels</span></a>
+						<ul>
+							<li><a href="form_sliders_noui.htm#">Second level</a></li>
+							<li>
+								<a href="form_sliders_noui.htm#">Second level with child</a>
+								<ul>
+									<li><a href="form_sliders_noui.htm#">Third level</a></li>
+									<li>
+										<a href="form_sliders_noui.htm#">Third level with child</a>
+										<ul>
+											<li><a href="form_sliders_noui.htm#">Fourth level</a></li>
+											<li><a href="form_sliders_noui.htm#">Fourth level</a></li>
+										</ul>
+									</li>
+									<li><a href="form_sliders_noui.htm#">Third level</a></li>
+								</ul>
+							</li>
+							<li><a href="form_sliders_noui.htm#">Second level</a></li>
+						</ul>
+					</li>
+					<!-- /Others -->
+
+				</ul>
+			</div>
+		</div>
+		<!-- /main navigation -->
+
+	</div>
+</div>
+<!-- /main sidebar -->
+<!-- Main content -->
+<div class="content-wrapper">
+
+	<!-- Page header -->
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-title">
+				<h4><i class="fa fa-pencil position-left"></i> NoUI sliders</h4>
+			</div>										
+			<ul class="breadcrumb">
+				<li><a href="index.htm"><i class="fa fa-home"></i>Home</a></li>				
+				<li>Form components</li>
+				<li class="active">NoUI sliders</li>
+			</ul>					
+		</div>
+	</div>
+	<!-- /page header -->
+
+	<!-- Content area -->
+	<div class="content">		
+		<h4>
+			NoUI sliders
+			<small class="display-block">Basic NoUI slider examples</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Slider handles</h4>
+						<p class="content-group-sm text-muted">Set handles using <code>start</code> option</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-handles"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-handles-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-handles-upper-val"></span></span>
+					</div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Non-linear slider</h4>
+						<p class="content-group-sm text-muted">Displays non-linear slider example</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-nonlinear"></div>
+
+					<span class="val-demo">Value: <span id="noui-nonlinear-val"></span></span>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Values range</h4>
+						<p class="content-group-sm text-muted">Slider values are part of a range</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-range"></div>
+
+					<span class="val-demo">Value: <span id="noui-range-val"></span></span>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Non-linear stepping</h4>
+						<p class="content-group-sm text-muted">Displays steps in non-linear slider</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-nonlinear-stepping"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-nonlinear-stepping-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-nonlinear-stepping-upper-val"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Stepping and snapping</h4>
+						<p class="content-group-sm text-muted">Set slider steps with <code>step</code> option</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-stepping"></div>
+
+					<span class="val-demo">Value: <span id="noui-stepping-val"></span></span>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Snapping between steps</h4>
+						<p class="content-group-sm text-muted">Force slider to jump between values</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-snapping"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-snapping-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-snapping-upper-val"></span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h4>
+			Slider Behaviour
+			<small class="display-block">Tapping, dragging, snapping etc.</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Slider behaviour</h4>
+						<p class="content-group-sm text-muted">Add behaviour to the slider</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-behaviour"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-behaviour-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-behaviour-upper-val"></span></span>
+					</div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Fixed dragging</h4>
+						<p class="content-group-sm text-muted">Distance between handles is fixed</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-drag-fixed"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-fixed-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-fixed-upper-val"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Tap behaviour</h4>
+						<p class="content-group-sm text-muted">A handle slides to a clicked location</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-tap"></div>
+
+					<span class="val-demo">Value: <span id="noui-slider-tap-val"></span></span>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Snap behaviour</h4>
+						<p class="content-group-sm text-muted">A handle snaps to a clicked location</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-snap"></div>
+
+					<span class="val-demo">Value: <span id="noui-slider-snap-val"></span></span>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Drag behaviour</h4>
+						<p class="content-group-sm text-muted">Makes the range dragable</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-drag"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-drag-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-drag-upper-val"></span></span>
+					</div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Combined options</h4>
+						<p class="content-group-sm text-muted">Behaviour flags can be combined</p>
+					</div>
+
+					<div class="mb-10" id="noui-slider-combined"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-combined-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-combined-upper-val"></span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<h4>
+			Pips and scales
+			<small class="display-block">Adding a scale/pips to a slider</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Slider with pips</h4>
+						<p class="content-group-sm text-muted">Slider pips in <code>range</code> mode</p>
+					</div>
+
+					<div class="noui-slider-info has-pips" id="noui-slider-pips-range"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Count mode</h4>
+						<p class="content-group-sm text-muted">Slider pips in <code>count</code> mode</p>
+					</div>
+
+					<div class="noui-slider-info has-pips" id="noui-slider-pips-count"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Filtered steps</h4>
+						<p class="content-group-sm text-muted">Slider with filtered pip labels</p>
+					</div>
+
+					<div class="noui-slider-info has-pips" id="noui-slider-pips-filter"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Values mode</h4>
+						<p class="content-group-sm text-muted">Slider pips in <code>values</code> mode</p>
+					</div>
+
+					<div class="noui-slider-info has-pips" id="noui-slider-pips-values"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>RTL direction</h4>
+						<p class="content-group-sm text-muted">Slider pips in <code>RTL</code> direction</p>
+					</div>
+
+					<div class="noui-slider-info has-pips" id="noui-slider-pips-rtl"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Positions mode</h4>
+						<p class="content-group-sm text-muted">Slider pips in <code>positions</code> mode</p>
+					</div>
+
+					<div class="noui-slider-info has-pips" id="noui-slider-pips-positions"></div>
+				</div>
+			</div>
+		</div>
+		
+		<h4>
+			Advanced examples
+			<small class="display-block">More complex NoUI slider examples</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Slider with tooltips</h4>
+						<p class="content-group-sm text-muted">Add tooltips with <code>serialization</code> feature</p>
+					</div>
+
+					<div class="noui-slider-danger mb-10" id="noui-slider-tooltip"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-tooltip-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-tooltip-upper-val"></span></span>
+					</div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Connect to lower side</h4>
+						<p class="content-group-sm text-muted">Connect handle to the <code>lower</code> side</p>
+					</div>
+
+					<div class="noui-slider-primary mb-10" id="noui-slider-connect-lower"></div>
+
+					<span class="val-demo">Value: <span id="noui-slider-connect-lower-val"></span></span>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Min handles distance</h4>
+						<p class="content-group-sm text-muted">Set minimum distance between handles</p>
+					</div>
+
+					<div class="noui-slider-danger mb-10" id="noui-slider-margin"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-margin-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-margin-upper-val"></span></span>
+					</div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Skipping steps</h4>
+						<p class="content-group-sm text-muted">Skip certain steps with <code>snap</code> option</p>
+					</div>
+
+					<div class="noui-slider-primary mb-10" id="noui-slider-skip-steps"></div>
+
+					<div class="clearfix">
+						<span class="val-demo pull-left">Value: <span id="noui-slider-skip-lower-val"></span></span>
+						<span class="val-demo pull-right">Value: <span id="noui-slider-skip-upper-val"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>RTL slider direction</h4>
+						<p class="content-group-sm text-muted">Change direction with <code>direction</code> option</p>
+					</div>
+
+					<div class="noui-slider-danger mb-10" id="noui-slider-direction"></div>
+
+					<span class="val-demo">Value: <span id="noui-slider-direction-val"></span></span>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Connect to upper side</h4>
+						<p class="content-group-sm text-muted">Connect handle to the <code>upper</code> side</p>
+					</div>
+
+					<div class="noui-slider-primary mb-10" id="noui-slider-connect-upper"></div>
+					<span class="val-demo">Value: <span id="noui-slider-connect-upper-val"></span></span>
+				</div>
+			</div>
+		</div>
+		<!-- /advanced examples -->
+
+
+		<!-- Vertical sliders -->
+		<h4>
+			Vertical sliders
+			<small class="display-block">NoUI vertical slider orientation</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top text-center">
+					<h4>Default vertical slider</h4>
+					<p class="content-group-sm text-muted">Vertical direction slider example</p>
+
+					<div class="mb-10" id="noui-slider-values1"></div>
+					<div class="mb-10" id="noui-slider-values2"></div>
+					<div class="mb-10" id="noui-slider-values3"></div>
+					<div class="mb-10" id="noui-slider-values4"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top text-center">
+					<h4>Vertical ranges</h4>
+					<p class="content-group-sm text-muted">Add ranges to vertical slider</p>
+
+					<div class="noui-slider-primary" id="noui-slider-range1"></div>
+					<div class="noui-slider-primary" id="noui-slider-range2"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top text-center">
+					<h4>Connect to lower side</h4>
+					<p class="content-group-sm text-muted">Connect handle to the <code>lower</code> side</p>
+
+					<div class="noui-slider-primary" id="noui-slider-upper1"></div>
+					<div class="noui-slider-success" id="noui-slider-upper2"></div>
+					<div class="noui-slider-danger" id="noui-slider-upper3"></div>
+					<div class="noui-slider-info" id="noui-slider-upper4"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top text-center">
+					<h4>Top to bottom pips</h4>
+					<p class="content-group-sm text-muted">Scale pips from top to bottom</p>
+
+					<div class="noui-slider-primary has-pips" id="noui-slider-top1"></div>
+					<div class="noui-slider-primary has-pips" id="noui-slider-top2"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top text-center">
+					<h4>Connect to upper side</h4>
+					<p class="content-group-sm text-muted">Connect handle to the <code>upper</code> side</p>
+
+					<div class="noui-slider-primary" id="noui-slider-lower1"></div>
+					<div class="noui-slider-success" id="noui-slider-lower2"></div>
+					<div class="noui-slider-danger" id="noui-slider-lower3"></div>
+					<div class="noui-slider-info" id="noui-slider-lower4"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top text-center">
+					<h4>Bottom to top pips</h4>
+					<p class="content-group-sm text-muted">Scale pips from bottom to top</p>
+
+					<div class="noui-slider-primary has-pips" id="noui-slider-bottom1"></div>
+					<div class="noui-slider-primary has-pips" id="noui-slider-bottom2"></div>
+				</div>
+			</div>
+		</div>
+		<!-- /vertical sliders -->
+
+
+		<!-- Slider colors title -->
+		<h4>
+			Slider colors
+			<small class="display-block">Contextual NoUI slider alternatives</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Default slider</h4>
+						<p class="content-group-sm text-muted">Default <code>dark grey</code> slider color</p>
+					</div>
+
+					<div class="mb-5" id="noui-slider-color-demo1"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Success slider style</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-success</code> class</p>
+					</div>
+
+					<div class="noui-slider-success mb-5" id="noui-slider-color-demo2"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Primary slider style</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-primary</code> class</p>
+					</div>
+
+					<div class="noui-slider-primary mb-5" id="noui-slider-color-demo3"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Warning slider style</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-warning</code> class</p>
+					</div>
+
+					<div class="noui-slider-warning mb-5" id="noui-slider-color-demo4"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Danger slider style</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-danger</code> class</p>
+					</div>
+
+					<div class="noui-slider-danger mb-5" id="noui-slider-color-demo5"></div>
+				</div>
+
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Info slider style</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-info</code> class</p>
+					</div>
+
+					<div class="noui-slider-info mb-5" id="noui-slider-color-demo6"></div>
+				</div>
+			</div>
+		</div>
+		<!-- /slider colors -->
+
+
+		<!-- Sizes and styles -->
+		<h4>
+			Other slider options
+			<small class="display-block">Optional slider settings</small>
+		</h4>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Sizes. Default handle</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-lg (sm, xs)</code> classes</p>
+					</div>
+
+					<div class="noui-slider-primary noui-slider-lg" id="slider-default-lg" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-danger" id="slider-default-md" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-success noui-slider-sm" id="slider-default-sm" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-info noui-slider-xs mb-5" id="slider-default-xs"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Sizes. Solid handle</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-solid</code> class</p>
+					</div>
+
+					<div class="noui-slider-primary noui-slider-solid noui-slider-lg" id="slider-solid-lg" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-danger noui-slider-solid" id="slider-solid-md" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-success noui-slider-solid noui-slider-sm" id="slider-solid-sm" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-info noui-slider-solid noui-slider-xs mb-5" id="slider-solid-xs"></div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<div class="panel panel-body no-padding-top">
+					<div class="mb-20">
+						<h4>Sizes. White handle</h4>
+						<p class="content-group-sm text-muted">Using <code>noui-slider-white</code> class</p>
+					</div>
+
+					<div class="noui-slider-primary noui-slider-white noui-slider-lg" id="slider-white-lg" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-danger noui-slider-white" id="slider-white-md" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-success noui-slider-white noui-slider-sm" id="slider-white-sm" style="margin-bottom: 30px;"></div>
+					<div class="noui-slider-info noui-slider-white noui-slider-xs mb-5" id="slider-white-xs"></div>
+				</div>
+			</div>
+		</div>
+		<!-- /sizes and styles -->
+	<!-- Content area -->
+		
+<script type='text/javascript'>
+	$(document).ready(function() {		
+		$(function() {			
+			// Handles
+			// ------------------------------
+
+			// Setup
+			var slider_handles = document.getElementById('noui-slider-handles');
+			noUiSlider.create(slider_handles, {
+				start: [40, 80],
+				range: {
+					'min': [20],
+					'max': [100]
+				}
+			});
+
+			// Display values
+			var slider_handles_vals = [
+				document.getElementById('noui-handles-lower-val'),
+				document.getElementById('noui-handles-upper-val')
+			];
+			slider_handles.noUiSlider.on('update', function( values, handle ) {
+				slider_handles_vals[handle].innerHTML = values[handle];
+			});
+
+
+			// Ranges
+			// ------------------------------
+
+			// Setup
+			var slider_range = document.getElementById('noui-slider-range');
+			noUiSlider.create(slider_range, {
+				start: [60],
+				range: {
+					'min': [20],
+					'max': [100]
+				}
+			});
+
+			// Display values
+			var slider_range_val = document.getElementById('noui-range-val');
+			slider_range.noUiSlider.on('update', function( values, handle ) {
+				slider_range_val.innerHTML = values[handle];
+			});
+
+
+			// Stepping
+			// ------------------------------
+
+			// Setup
+			var slider_stepping = document.getElementById('noui-slider-stepping');
+			noUiSlider.create(slider_stepping, {
+				start: [40],
+				step: 10,
+				range: {
+					'min': [20],
+					'max': [100]
+				},
+			});
+
+			// Display values
+			var slider_stepping_val = document.getElementById('noui-stepping-val');
+			slider_stepping.noUiSlider.on('update', function( values, handle ) {
+				slider_stepping_val.innerHTML = values[handle];
+			});
+
+
+			// Non-linear slider
+			// ------------------------------
+
+			// Define element
+			var slider_nonlinear = document.getElementById('noui-slider-nonlinear');
+
+			// Create slider
+			noUiSlider.create(slider_nonlinear, {
+				start: [ 40 ],
+				range: {
+					'min': [  20 ],
+					'30%': [  40 ],
+					'70%': [  80 ],
+					'max': [ 100 ]
+				}
+			});
+
+			// Define element for values
+			var slider_nonlinear_val = document.getElementById('noui-nonlinear-val');
+
+			// Show the value for the *last* moved handle.
+			slider_nonlinear.noUiSlider.on('update', function( values, handle ) {
+				slider_nonlinear_val.innerHTML = values[handle];
+			});
+
+
+			// Non-linear stepping
+			// ------------------------------
+
+			// Define element
+			var slider_nonlinear_step = document.getElementById('noui-slider-nonlinear-stepping');
+
+			// Create slider
+			noUiSlider.create(slider_nonlinear_step, {
+				start: [ 5, 40 ],
+				range: {
+					'min': [     0 ],
+					'10%': [   5,  5 ],
+					'50%': [  40, 10 ],
+					'max': [ 100 ]
+				}
+			});
+
+			// Define elements for values
+			var slider_nonlinear_step_vals = [
+				document.getElementById('noui-nonlinear-stepping-lower-val'),
+				document.getElementById('noui-nonlinear-stepping-upper-val')
+			];
+
+			// Show the values
+			slider_nonlinear_step.noUiSlider.on('update', function( values, handle ) {
+				slider_nonlinear_step_vals[handle].innerHTML = values[handle];
+			});
+
+
+			// Snapping between steps
+			// ------------------------------
+
+			// Define element
+			var slider_nonlinear_snap = document.getElementById('noui-slider-snapping');
+
+			// Create slider
+			noUiSlider.create(slider_nonlinear_snap, {
+				start: [50, 800],
+				snap: true,
+				connect: true,
+				range: {
+					'min': 0,
+					'10%': 50,
+					'20%': 100,
+					'30%': 150,
+					'40%': 500,
+					'50%': 800,
+					'max': 1000
+				}
+			});
+
+			// Define elements for values
+			var slider_nonlinear_snap_vals = [
+				document.getElementById('noui-slider-snapping-lower-val'),
+				document.getElementById('noui-slider-snapping-upper-val')
+			];
+
+			// Show the values
+			slider_nonlinear_snap.noUiSlider.on('update', function( values, handle ) {
+				slider_nonlinear_snap_vals[handle].innerHTML = values[handle];
+			});
+
+
+
+			// Behaviours
+			// ------------------------------
+
+			//
+			// Slider behaviour
+			//
+
+			// Define element
+			slider_behaviour = document.getElementById('noui-slider-behaviour');
+
+			// Create slider
+			noUiSlider.create(slider_behaviour, {
+				start: [ 40, 60 ],
+				step: 10,
+				behaviour: 'drag',
+				connect: true,
+				range: {
+					'min':  20,
+					'max':  80
+				}
+			});
+
+			// Define elements for values
+			var slider_behaviour_vals = [
+				document.getElementById('noui-slider-behaviour-lower-val'),
+				document.getElementById('noui-slider-behaviour-upper-val')
+			];
+
+			// Show the values
+			slider_behaviour.noUiSlider.on('update', function( values, handle ) {
+				slider_behaviour_vals[handle].innerHTML = values[handle];
+			});
+
+
+			//
+			// Tap behaviour
+			//
+
+			// Define element
+			slider_tap_behaviour = document.getElementById('noui-slider-tap');
+
+			// Create slider
+			noUiSlider.create(slider_tap_behaviour, {
+				start: 40,
+				behaviour: 'tap',
+				connect: 'upper',
+				range: {
+					'min':  20,
+					'max':  80
+				}
+			});
+
+			// Define elements for values
+			var slider_tap_behaviour_val = document.getElementById('noui-slider-tap-val');
+
+			// Show the values
+			slider_tap_behaviour.noUiSlider.on('update', function( values, handle ) {
+				slider_tap_behaviour_val.innerHTML = values[handle];
+			});
+
+
+			//
+			// Drag behaviour
+			//
+
+			// Define element
+			var slider_drag_behaviour = document.getElementById('noui-slider-drag');
+
+			// Create slider
+			noUiSlider.create(slider_drag_behaviour, {
+				start: [ 40, 60 ],
+				behaviour: 'drag',
+				connect: true,
+				range: {
+					'min':  20,
+					'max':  80
+				}
+			});
+
+			// Define elements for values
+			var slider_drag_behaviour_vals = [
+				document.getElementById('noui-slider-drag-lower-val'),
+				document.getElementById('noui-slider-drag-upper-val')
+			];
+
+			// Show the values
+			slider_drag_behaviour.noUiSlider.on('update', function( values, handle ) {
+				slider_drag_behaviour_vals[handle].innerHTML = values[handle];
+			});
+
+
+			//
+			// Fixed dragging
+			//
+
+			// Define element
+			slider_drag_fixed = document.getElementById('noui-slider-drag-fixed');
+
+			// Create slider
+			noUiSlider.create(slider_drag_fixed, {
+				start: [ 40, 60 ],
+				behaviour: 'drag-fixed',
+				connect: true,
+				range: {
+					'min':  20,
+					'max':  80
+				}
+			});
+
+			// Define elements for values
+			var slider_drag_fixed_vals = [
+				document.getElementById('noui-slider-fixed-lower-val'),
+				document.getElementById('noui-slider-fixed-upper-val')
+			];
+
+			// Show the values
+			slider_drag_fixed.noUiSlider.on('update', function( values, handle ) {
+				slider_drag_fixed_vals[handle].innerHTML = values[handle];
+			});
+
+
+			//
+			// Snap behaviour
+			//
+
+			// Define element
+			slider_snap_behaviour = document.getElementById('noui-slider-snap');
+
+			// Create slider
+			noUiSlider.create(slider_snap_behaviour, {
+				start: 40,
+				behaviour: 'snap',
+				connect: 'lower',
+				range: {
+					'min':  20,
+					'max':  80
+				}
+			});
+
+			// Define elements for values
+			var slider_snap_behaviour_val = document.getElementById('noui-slider-snap-val');
+
+			// Show the values
+			slider_snap_behaviour.noUiSlider.on('update', function( values, handle ) {
+				slider_snap_behaviour_val.innerHTML = values[handle];
+			});
+
+
+			//
+			// Combined options
+			//
+
+			// Define element
+			slider_combined = document.getElementById('noui-slider-combined');
+
+			// Create slider
+			noUiSlider.create(slider_combined, {
+				start: [ 40, 60 ],
+				behaviour: 'drag-tap',
+				connect: true,
+				range: {
+					'min':  20,
+					'max':  80
+				}
+			});
+
+			// Define elements for values
+			var slider_combined_vals = [
+				document.getElementById('noui-slider-combined-lower-val'),
+				document.getElementById('noui-slider-combined-upper-val')
+			];
+
+			// Show the values
+			slider_combined.noUiSlider.on('update', function( values, handle ) {
+				slider_combined_vals[handle].innerHTML = values[handle];
+			});
+
+
+
+			// Other examples
+			// ------------------------------
+
+			//
+			// Tooltip
+			//
+
+			// Define element
+			var slider_tooltip = document.getElementById('noui-slider-tooltip');
+
+			// Create slider
+			noUiSlider.create(slider_tooltip, {
+				start: [20, 80],
+				tooltips: true,
+				connect: true,
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Define elements for values
+			var slider_tooltip_vals = [
+				document.getElementById('noui-slider-tooltip-lower-val'),
+				document.getElementById('noui-slider-tooltip-upper-val')
+			];
+
+			// Show the values
+			slider_tooltip.noUiSlider.on('update', function( values, handle ) {
+				slider_tooltip_vals[handle].innerHTML = values[handle];
+			});
+
+
+			//
+			// Set minimum handles distance
+			//
+
+			// Define element
+			var slider_margin = document.getElementById('noui-slider-margin');
+
+			// Create slider
+			noUiSlider.create(slider_margin, {
+				start: [ 20, 80 ],
+				connect: true,
+				margin: 30,
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Define elements for values
+			var slider_margin_vals = [
+				document.getElementById('noui-slider-margin-lower-val'),
+				document.getElementById('noui-slider-margin-upper-val')
+			];
+
+			// Show the values
+			slider_margin.noUiSlider.on('update', function( values, handle ) {
+				slider_margin_vals[handle].innerHTML = values[handle];
+			});
+
+
+			//
+			// RTL direction
+			//
+
+			// Define element
+			var slider_direction = document.getElementById('noui-slider-direction');
+
+			// Create slider
+			noUiSlider.create(slider_direction, {
+				start: 20,
+				direction: 'rtl',
+				connect: 'lower',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Define elements for values
+			var slider_direction_val = document.getElementById('noui-slider-direction-val');
+
+			// Show the values
+			slider_direction.noUiSlider.on('update', function( values, handle ) {
+				slider_direction_val.innerHTML = values[handle];
+			});
+
+
+			//
+			// Connect lower side
+			//
+
+			// Define element
+			var slider_connect_lower = document.getElementById('noui-slider-connect-lower');
+
+			// Create slider
+			noUiSlider.create(slider_connect_lower, {
+				start: 40,
+				connect: 'lower',
+				range: {
+				  'min': 0,
+				  'max': 100
+				}
+			});
+
+			// Define elements for values
+			var slider_connect_lower_val = document.getElementById('noui-slider-connect-lower-val');
+
+			// Show the values
+			slider_connect_lower.noUiSlider.on('update', function( values, handle ) {
+				slider_connect_lower_val.innerHTML = values[handle];
+			});
+
+
+			//
+			// Skip certain steps
+			//
+
+			// Define element
+			var slider_skip = document.getElementById('noui-slider-skip-steps');
+
+			// Create slider
+			noUiSlider.create(slider_skip, {
+				range: {
+					'min': 0,
+					'10%': 10,
+					'20%': 20,
+					'30%': 30,
+					// Nope, 40 is no fun.
+					'50%': 50,
+					'60%': 60,
+					'70%': 70,
+					// I never liked 80.
+					'90%': 90,
+					'max': 100
+				},
+				snap: true,
+				connect: true,
+				start: [20, 70]
+			});
+
+			// Define elements for values
+			var slider_skip_vals = [
+				document.getElementById('noui-slider-skip-lower-val'),
+				document.getElementById('noui-slider-skip-upper-val')
+			];
+
+			// Show the values
+			slider_skip.noUiSlider.on('update', function( values, handle ) {
+				slider_skip_vals[handle].innerHTML = values[handle];
+			});
+
+
+			//
+			// Connect upper side
+			//
+
+			// Define element
+			var slider_connect_upper = document.getElementById('noui-slider-connect-upper');
+
+			// Create slider
+			noUiSlider.create(slider_connect_upper, {
+				start: 40,
+				connect: 'upper',
+				range: {
+				  'min': 0,
+				  'max': 100
+				}
+			});
+
+			// Define elements for values
+			var slider_connect_upper_val = document.getElementById('noui-slider-connect-upper-val');
+
+			// Show the values
+			slider_connect_upper.noUiSlider.on('update', function( values, handle ) {
+				slider_connect_upper_val.innerHTML = values[handle];
+			});
+
+
+
+			// Sliders with pips
+			// ------------------------------
+
+			// Demo data for ranges
+			var range_all_sliders = {
+				'min': [     0 ],
+				'10%': [   5,  5 ],
+				'50%': [  40, 10 ],
+				'max': [ 100 ]
+			};
+
+
+			//
+			// Range slider pips
+			//
+
+			// Define element
+			var pips_range = document.getElementById('noui-slider-pips-range');
+
+			// Create slider
+			noUiSlider.create(pips_range, {
+				range: range_all_sliders,
+				start: 40,
+				connect: 'lower',
+				pips: {
+					mode: 'range',
+					density: 3
+				}
+			});
+
+
+			//
+			// Filtered pips
+			//
+
+			// Filter pips
+			function filter500(value, type) {
+				return value % 10 ? 2 : 1;
+			}
+
+			// Define element
+			var pips_filter = document.getElementById('noui-slider-pips-filter');
+
+			// Create slider
+			noUiSlider.create(pips_filter, {
+				range: range_all_sliders,
+				start: 40,
+				connect: 'lower',
+				pips: {
+					mode: 'steps',
+					density: 2,
+					filter: filter500
+				}
+			});
+
+
+			//
+			// RTL version
+			//
+
+			// Define element
+			pips_rtl = document.getElementById('noui-slider-pips-rtl');
+
+			// Create slider
+			noUiSlider.create(pips_rtl, {
+				range: range_all_sliders,
+				start: 60,
+				connect: 'lower',
+				direction: 'rtl',
+				pips: {
+					mode: 'range',
+					density: 3
+				}
+			});
+
+
+			//
+			// Positions mode
+			//
+
+			// Define element
+			var pips_positions = document.getElementById('noui-slider-pips-positions');
+
+			// Create slider
+			noUiSlider.create(pips_positions, {
+				range: range_all_sliders,
+				start: 18,
+				connect: 'upper',
+				pips: {
+					mode: 'positions',
+					values: [0,25,50,75,100],
+					density: 4
+				}
+			});
+
+
+			//
+			// Count mode
+			//
+
+			// Define element
+			var pips_count = document.getElementById('noui-slider-pips-count');
+
+			// Create slider
+			noUiSlider.create(pips_count, {
+				range: range_all_sliders,
+				start: 20,
+				connect: 'upper',
+				pips: {
+					mode: 'count',
+					values: 6,
+					density: 4
+				}
+			});
+
+
+			//
+			// Values mode
+			//
+
+			// Define element
+			var pips_values = document.getElementById('noui-slider-pips-values');
+
+			// Create slider
+			noUiSlider.create(pips_values, {
+				range: range_all_sliders,
+				start: 40,
+				connect: 'upper',
+				pips: {
+					mode: 'values',
+					values: [1, 10, 26, 57, 79, 99],
+					density: 4
+				}
+			});
+
+
+
+			// Vertical sliders
+			// ------------------------------
+
+			//
+			// Basic examples
+			//
+
+			// First
+			var slider_vertical_1 = document.getElementById('noui-slider-values1');
+			noUiSlider.create(slider_vertical_1, {
+				start: 20,
+				orientation: 'vertical',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Second
+			var slider_vertical_2 = document.getElementById('noui-slider-values2');
+			noUiSlider.create(slider_vertical_2, {
+				start: 40,
+				orientation: 'vertical',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Third
+			var slider_vertical_3 = document.getElementById('noui-slider-values3');
+			noUiSlider.create(slider_vertical_3, {
+				start: 60,
+				orientation: 'vertical',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Fourth
+			var slider_vertical_4 = document.getElementById('noui-slider-values4');
+			noUiSlider.create(slider_vertical_4, {
+				start: 80,
+				orientation: 'vertical',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+
+			//
+			// Connect to upper side
+			//
+
+			// First
+			var slider_vertical_upper_1 = document.getElementById('noui-slider-upper1');
+			noUiSlider.create(slider_vertical_upper_1, {
+				start: 20,
+				orientation: 'vertical',
+				connect: 'upper',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Second
+			var slider_vertical_upper_2 = document.getElementById('noui-slider-upper2');
+			noUiSlider.create(slider_vertical_upper_2, {
+				start: 40,
+				orientation: 'vertical',
+				connect: 'upper',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Third
+			var slider_vertical_upper_3 = document.getElementById('noui-slider-upper3');
+			noUiSlider.create(slider_vertical_upper_3, {
+				start: 60,
+				orientation: 'vertical',
+				connect: 'upper',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Fourth
+			var slider_vertical_upper_4 = document.getElementById('noui-slider-upper4');
+			noUiSlider.create(slider_vertical_upper_4, {
+				start: 80,
+				orientation: 'vertical',
+				connect: 'upper',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+
+			//
+			// Connect to lower side
+			//
+
+			// First
+			var slider_vertical_lower_1 = document.getElementById('noui-slider-lower1');
+			noUiSlider.create(slider_vertical_lower_1, {
+				start: 20,
+				orientation: 'vertical',
+				connect: 'lower',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Second
+			var slider_vertical_lower_2 = document.getElementById('noui-slider-lower2');
+			noUiSlider.create(slider_vertical_lower_2, {
+				start: 40,
+				orientation: 'vertical',
+				connect: 'lower',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Third
+			var slider_vertical_lower_3 = document.getElementById('noui-slider-lower3');
+			noUiSlider.create(slider_vertical_lower_3, {
+				start: 60,
+				orientation: 'vertical',
+				connect: 'lower',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Fourth
+			var slider_vertical_lower_4 = document.getElementById('noui-slider-lower4');
+			noUiSlider.create(slider_vertical_lower_4, {
+				start: 80,
+				orientation: 'vertical',
+				connect: 'lower',
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+
+			//
+			// Vertical range
+			//
+
+			// First
+			var slider_range_1 = document.getElementById('noui-slider-range1');
+			noUiSlider.create(slider_range_1, {
+				start: [ 15, 85 ],
+				orientation: 'vertical',
+				connect: true,
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+			// Second
+			var slider_range_2 = document.getElementById('noui-slider-range2');
+			noUiSlider.create(slider_range_2, {
+				start: [ 30, 70 ],
+				orientation: 'vertical',
+				connect: true,
+				range: {
+					'min': 0,
+					'max': 100
+				}
+			});
+
+
+			//
+			// Top to bottom pips
+			//
+
+			// First
+			var slider_pips_top_1 = document.getElementById('noui-slider-top1');
+			noUiSlider.create(slider_pips_top_1, {
+				range: range_all_sliders,
+				start: 40,
+				connect: 'lower',
+				orientation: 'vertical',
+				pips: {
+					mode: 'range',
+					density: 5
+				}
+			});
+
+			// Second
+			var slider_pips_top_2 = document.getElementById('noui-slider-top2');
+			noUiSlider.create(slider_pips_top_2, {
+				range: range_all_sliders,
+				start: 60,
+				connect: 'lower',
+				orientation: 'vertical',
+				pips: {
+					mode: 'range',
+					density: 5
+				}
+			});
+
+
+			//
+			// Bottom to top pips
+			//
+
+			// First
+			var slider_pips_bottom_1 = document.getElementById('noui-slider-bottom1');
+			noUiSlider.create(slider_pips_bottom_1, {
+				range: range_all_sliders,
+				start: 40,
+				connect: 'lower',
+				orientation: 'vertical',
+				direction: 'rtl',
+				pips: {
+					mode: 'range',
+					density: 5
+				}
+			});
+
+			// Second
+			var slider_pips_bottom_2 = document.getElementById('noui-slider-bottom2');
+			noUiSlider.create(slider_pips_bottom_2, {
+				range: range_all_sliders,
+				start: 60,
+				connect: 'lower',
+				orientation: 'vertical',
+				direction: 'rtl',
+				pips: {
+					mode: 'range',
+					density: 5
+				}
+			});
+
+
+
+			// Optional styling
+			// ------------------------------
+
+			//
+			// Colors
+			//
+
+			// Define elements
+			var color1 = document.getElementById('noui-slider-color-demo1'),
+				color2 = document.getElementById('noui-slider-color-demo2'),
+				color3 = document.getElementById('noui-slider-color-demo3'),
+				color4 = document.getElementById('noui-slider-color-demo4'),
+				color5 = document.getElementById('noui-slider-color-demo5'),
+				color6 = document.getElementById('noui-slider-color-demo6');
+
+			// Set common options
+			var color_options = {
+				start: [2, 8],
+				connect: true,
+				range: {
+					'min': 0,
+					'max': 10
+				}
+			}
+
+			// Create sliders
+			noUiSlider.create(color1, color_options);
+			noUiSlider.create(color2, color_options);
+			noUiSlider.create(color3, color_options);
+			noUiSlider.create(color4, color_options);
+			noUiSlider.create(color5, color_options);
+			noUiSlider.create(color6, color_options);
+
+
+			//
+			// Sizes and styles
+			//
+
+			// Define elements
+			var default_size1 = document.getElementById('slider-default-lg'),
+				default_size2 = document.getElementById('slider-default-md'),
+				default_size3 = document.getElementById('slider-default-sm'),
+				default_size4 = document.getElementById('slider-default-xs'),
+
+				solid_size1 = document.getElementById('slider-solid-lg'),
+				solid_size2 = document.getElementById('slider-solid-md'),
+				solid_size3 = document.getElementById('slider-solid-sm'),
+				solid_size4 = document.getElementById('slider-solid-xs'),
+
+				white_size1 = document.getElementById('slider-white-lg'),
+				white_size2 = document.getElementById('slider-white-md'),
+				white_size3 = document.getElementById('slider-white-sm'),
+				white_size4 = document.getElementById('slider-white-xs');
+
+			// Create sliders
+			noUiSlider.create(default_size1, color_options);
+			noUiSlider.create(default_size2, color_options);
+			noUiSlider.create(default_size3, color_options);
+			noUiSlider.create(default_size4, color_options);
+
+			noUiSlider.create(solid_size1, color_options);
+			noUiSlider.create(solid_size2, color_options);
+			noUiSlider.create(solid_size3, color_options);
+			noUiSlider.create(solid_size4, color_options);
+
+			noUiSlider.create(white_size1, color_options);
+			noUiSlider.create(white_size2, color_options);
+			noUiSlider.create(white_size3, color_options);
+			noUiSlider.create(white_size4, color_options);
+		});
+	});
+</script>
+					<!-- Footer -->
+					<div class="footer pt-20">
+						&copy; 2016 Bird - Admin theme by <a href="http://followtechnique.com" target="_blank">FollowTechnique</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Version - 1.0.0
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+		
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+</body>
+</html>

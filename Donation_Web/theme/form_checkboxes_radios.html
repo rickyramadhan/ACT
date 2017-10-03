@@ -1,0 +1,1547 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bird (v1) - Responsive admin dashboard theme by Followtechnique</title>	
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="144x144">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="114x114">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="72x72">
+	<link href="assets/images/favicon.ico" rel="apple-touch-icon" type="image/png">
+	<link href="assets/images/favicon.ico" rel="icon" type="image/png">
+	<link href="assets/images/favicon.ico" rel="shortcut icon">
+
+	<!-- Global stylesheets -->
+	<link href="fonts/fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-extended.css" rel="stylesheet" type="text/css">
+	<link href="css/plugins.css" rel="stylesheet" type="text/css">
+	<link href="css/color-system.css" rel="stylesheet" type="text/css">
+	<link href="css/media.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="form_checkboxes_radios.htm" id="style">
+	<link type="text/css" rel="stylesheet" href="form_checkboxes_radios.htm" id="theme">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/fancybox.min.js"></script>	
+	<script src="js/app.js"></script><script src="js/forms/uniform.min.js"></script>
+<script src="js/forms/switchery.min.js"></script>
+<script src="js/forms/switch.min.js"></script>
+</head>
+<body>
+<!-- Main navbar -->
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-header">
+		<a class="sidebar-mobile-toggle visible-xs"><i class="fa fa-ellipsis-v"></i></a>
+		<a class="navbar-brand" href="index.htm"></a>
+		<a class="sidebar-control sidebar-toggle hidden-xs pull-right"><i class="fa fa-bars"></i></a>
+	</div>
+	<ul class="navbar-right">
+		<li class="dropdown clearfix"> 
+			<a class="dropdown-toggle" id="settings" data-toggle="dropdown" aria-expanded="false"> <i class="fa fa-cog"></i></a> 
+			<ul class="dropdown-menu dropdown-menu-themes" aria-labelledby="settings"> 
+				<li class="dropdown-header">Styles</li>
+				<ul class="clearfix">
+					<li class="color-option style dark" data-popup="tooltip" title="Dark Theme" theme="dark"></li> 
+					<li class="color-option style light" data-popup="tooltip" title="Light Theme" theme="light"></li>
+					<li class="color-option style default" data-popup="tooltip" title="Default Theme" theme=""></li>					
+				</ul>
+				<li role="separator" class="divider"></li>
+				<li class="dropdown-header">Themes</li>
+				<ul class="clearfix">
+					<li class="color-option theme pink" data-popup="tooltip" title="Pink" theme="pink"></li> 					
+					<li class="color-option theme purple" data-popup="tooltip" title="Purple" theme="purple"></li>
+					<li class="color-option theme indigo" data-popup="tooltip" title="Indigo" theme="indigo"></li> 
+					<li class="color-option theme blue" data-popup="tooltip" title="Blue" theme="blue"></li>
+					<li class="color-option theme teal" data-popup="tooltip" title="Teal" theme="teal"></li> 
+					<li class="color-option theme lime" data-popup="tooltip" title="Lime" theme="lime"></li>
+					<li class="color-option theme amber" data-popup="tooltip" title="Amber" theme="amber"></li> 
+					<li class="color-option theme brown" data-popup="tooltip" title="Brown" theme="brown"></li>					
+					<li class="color-option theme slate" data-popup="tooltip" title="Slate" theme="slate"></li>
+					<li class="color-option theme grey" data-popup="tooltip" title="Grey" theme="grey"></li>
+					<li class="color-option theme default" data-popup="tooltip" title="Default" theme=""></li> 					
+				</ul>
+			</ul> 
+		</li>
+		<li class="dropdown notifications">
+			<a class="dropdown-toggle" data-toggle="dropdown">
+				<i class="fa fa-bell"></i>		
+				<span class="badge badge-info">5</span>
+			</a>
+			<div class="dropdown-menu">
+				<ul class="media-list media-list-linked">
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user1.png" class="img-circle img-sm" alt="">							
+						</div>
+						<div class="media-body">
+							<a href="form_checkboxes_radios.htm#" class="media-heading clearfix">
+								Jane Elliott
+								<span class="media-annotation pull-right">04:58</span>
+							</a>
+							<span>Suspendisse vel dolor dui. Cras bibendum elit ac...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user2.png" class="img-circle img-sm" alt="">							
+						</div>
+						<div class="media-body">
+							<a href="form_checkboxes_radios.htm#" class="media-heading clearfix">
+								Florence Douglas
+								<span class="media-annotation pull-right">12:16</span>
+							</a>
+
+							<span>Aenean aliquam tempor odio nec tincidunt...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left">
+							<img src="assets/images/users/user3.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="form_checkboxes_radios.htm#" class="media-heading clearfix">
+								Eugine Turner
+								<span class="media-annotation pull-right">22:48</span>
+							</a>
+
+							<span>Aliquam erat volutpat. Integer ut molestie elit...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left"><img src="assets/images/users/user4.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="form_checkboxes_radios.htm#" class="media-heading clearfix">
+								Ann Porter
+								<span class="media-annotation pull-right">Tue</span>
+							</a>
+
+							<span>Maecenas varius bibendum sagittis. Donec porttitor...</span>
+						</div>
+					</li>
+					<li class="media">
+						<div class="media-left"><img src="assets/images/users/user5.png" class="img-circle img-sm" alt=""></div>
+						<div class="media-body">
+							<a href="form_checkboxes_radios.htm#" class="media-heading clearfix">
+								Jacqueline Howell
+								<span class="media-annotation pull-right">Mon</span>
+							</a>
+							
+							<span>Cras eleifend gravida ullamcorper. Mauris id congue nunc...</span>
+						</div>
+					</li>
+				</ul>
+				<div class="dropdown-content-footer">
+					<a href="form_checkboxes_radios.htm#" data-popup="tooltip" title="All messages"><i class="fa fa-comments position-left"></i> Read all notifications</a>
+				</div>
+			</div>
+		</li>			
+	</ul>
+</div>
+<!-- /main navbar -->
+
+<!-- Page container -->
+<div class="page-container" style="min-height:700px">
+
+	<!-- Page content -->
+	<div class="page-content"><!-- Main sidebar -->
+<div class="sidebar sidebar-main hidden-xs">
+	<div class="sidebar-content">
+
+		<!-- User menu -->
+		<div class="sidebar-user">
+			<div class="category-content">
+				<div class="media">
+					<a href="form_checkboxes_radios.htm#" class="media-left"><img src="assets/images/users/user6.png" class="img-circle img-sm" alt=""></a>
+					<div class="media-body">
+						<span class="media-heading text-semibold">Andrew Brewer</span>
+						<div class="text-size-mini text-muted">
+							Network engineer
+						</div>
+					</div>
+
+					<div class="media-right media-middle">
+						<ul class="icons-list">
+							<li>
+								<a href="login_simple.htm"><i class="fa fa-sign-out"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /user menu -->
+
+		<!-- Main navigation -->
+		<div class="sidebar-category sidebar-category-visible">
+			<div class="category-content no-padding">
+				<ul class="navigation navigation-main navigation-accordion">
+					
+					<!-- Main -->					
+					<li>
+						<a href="index.htm"><i class="fa fa-desktop"></i> <span>Dashboard</span></a>						
+					</li>																			
+					<!-- /Main -->	
+					
+					<!-- Content -->
+					<li class="navigation-header"><span>Content</span> <i class="fa fa-bars" title="Content"></i></li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-th"></i> <span>Bootstrap Components</span></a>
+						<ul>
+							<li><a href="bootstrap_modals.htm">Modals</a></li>
+							<li><a href="bootstrap_dropdowns.htm">Dropdown menus</a></li>
+							<li><a href="bootstrap_tabs.htm">Tabs component</a></li>										
+							<li><a href="bootstrap_accordions.htm">Accordions</a></li>
+							<li><a href="bootstrap_buttons.htm">Buttons</a></li>																
+							<li><a href="bootstrap_popups.htm">Tooltips and popovers</a></li>
+							<li><a href="bootstrap_alerts.htm">Alerts</a></li>							
+							<li><a href="bootstrap_pagination.htm">Pagination</a></li>
+							<li><a href="bootstrap_labels.htm">Labels and badges</a></li>
+							<li><a href="bootstrap_loaders.htm">Loaders and bars</a></li>																									
+							<li><a href="bootstrap_media.htm">Media objects</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-paper-plane"></i> <span>Appearance</span></a>
+						<ul>
+							<li><a href="appearance_content_panels.htm">Content panels</a></li>							
+							<li><a href="appearance_draggable_panels.htm">Draggable panels</a></li>										
+							<li><a href="appearance_typography.htm">Typography</a></li>
+							<li><a href="appearance_helper_classes.htm">Helper classes</a></li>							
+							
+						</ul>
+					</li>													
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-star"></i> <span>Icons</span></a>
+						<ul>
+							<li><a href="icons_glyphicons.htm">Glyphicons</a></li>							
+							<li><a href="icons_fontawesome.htm">Font awesome</a></li>
+							<li><a href="icons_icomoon.htm">Icomoon</a></li>
+						</ul>
+					</li>
+					<li><a href="animations.htm"><i class="fa fa-spinner fa-pulse"></i> <span>CSS3 Animations</span></a></li>					
+					<li><a href="color_system.htm"><i class="fa fa-eyedropper"></i> <span>Color system</span></a></li>	
+					<li><a href="grid_system.htm"><i class="fa fa-th-large"></i> <span>Grid system</span></a></li>					
+					<!-- /Content -->
+					
+					<!-- Forms -->
+					<li class="navigation-header"><span>Forms</span> <i class="fa fa-check-square-o" title="Forms"></i></li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-pencil"></i> <span>Form components</span></a>
+						<ul>
+							<li><a href="form_basic.htm">Basic inputs</a></li>
+							<li><a href="form_groups.htm">Input groups</a></li>
+							<li class="active"><a href="form_checkboxes_radios.htm">Checkboxes &amp; radios</a></li>							
+							<li><a href="form_select2.htm">Select2 selects</a></li>														
+							<li><a href="form_tag_inputs.htm">Tag inputs</a></li>	
+							<li><a href="form_sliders_noui.htm">NoUI sliders</a></li>														
+							<li><a href="form_wizard.htm">Form Wizard</a></li>										
+						</ul>
+					</li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-text-height"></i> <span>Text Editors</span></a>
+						<ul>
+							<li><a href="editor_ckeditor.htm">CKEditor</a></li>
+							<li><a href="editor_tinymce.htm">TinyMCE editor</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-eyedropper"></i> <span>Pickers</span></a>
+						<ul>
+							<li><a href="pickers_date.htm">Date & Time pickers</a></li>
+							<li><a href="pickers_colors.htm">Color pickers</a></li>							
+						</ul>
+					</li>							
+					<!-- /forms -->				
+
+					<!-- Data & charts -->
+					<li class="navigation-header"><span>Charts &amp; Graphs</span> <i class="fa fa-area-chart" title="Charts &amp; Graphs"></i></li>																									
+					<li><a href="form_checkboxes_radios.htm#"><i class="fa fa-pie-chart"></i> <span>C3 library</span></a>
+						<ul>
+							<li><a href="charts_c3_lines_areas.htm">Lines &amp; areas</a></li>
+							<li><a href="charts_c3_bars_pies.htm">Bars &amp; pies</a></li>
+							<li><a href="charts_c3_advanced.htm">Advanced examples</a></li>
+							<li><a href="charts_c3_chart_axis.htm">Chart axis</a></li>
+							<li><a href="charts_c3_grid_options.htm">Grid options</a></li>
+						</ul>
+					</li>					
+					<li><a href="form_checkboxes_radios.htm#"><i class="fa fa-line-chart"></i> <span>Google charts</span></a>
+						<ul>
+							<li><a href="charts_google_lines.htm">Line charts</a></li>
+							<li><a href="charts_google_bars.htm">Bar charts</a></li>
+							<li><a href="charts_google_pies.htm">Pie charts</a></li>
+							<li><a href="charts_google_bubbles.htm">Bubble &amp; scatter charts</a></li>							
+						</ul>
+					</li>						
+					<!-- /data & charts -->
+
+					<!-- Extensions -->
+					<li class="navigation-header"><span>Extensions</span> <i class="fa fa-puzzle-piece" title="Extensions"></i></li>
+					<li><a href="extensions_pnotify.htm"><i class="fa fa-warning"></i> <span>PNotify notifications</span></a></li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-cloud-upload"></i> <span>File uploaders</span></a>
+						<ul>
+							<li><a href="extensions_bootstrap.htm">Bootstrap file uploader</a></li>
+							<li><a href="extensions_dropzone.htm">Dropzone</a></li>																
+						</ul>
+					</li>
+					<li><a href="extension_calendar.htm"><i class="fa fa-calendar"></i> <span>Event calendars</span></a></li>						
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-map"></i> <span>Maps integration</span></a>
+						<ul>
+							<li><a href="maps_vector.htm">Vector maps</a></li>
+							<li>
+								<a href="form_checkboxes_radios.htm#">Google maps</a>
+								<ul>
+									<li><a href="maps_google_basic.htm">Basics</a></li>									
+									<li><a href="maps_google_markers.htm">Markers</a></li>									
+									<li><a href="maps_google_layers.htm">Layers</a></li>
+								</ul>
+							</li>							
+						</ul>
+					</li>								
+					<!-- /extensions -->
+
+					<!-- Tables -->
+					<li class="navigation-header"><span>Tables</span> <i class="fa fa-table" title="Tables"></i></li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-table"></i> <span>Basic tables</span></a>
+						<ul>
+							<li><a href="table_basic.htm">Basic examples</a></li>
+							<li><a href="table_borders.htm">Table borders</a></li>
+							<li><a href="table_sizing.htm">Table sizing</a></li>							
+							<li><a href="table_styling.htm">Table styling</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-th-large"></i> <span>Data tables</span></a>
+						<ul>
+							<li><a href="datatable_basic.htm">Basic datatable</a></li>																					
+							<li><a href="datatable_advanced.htm">Advanced datatables</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-plug"></i> <span>Data tables extensions</span></a>
+						<ul>							
+							<li><a href="datatable_extension_row_reorder.htm">Row reorder</a></li>
+							<li><a href="datatable_extension_column_reorder.htm">Columns reorder</a></li>
+							<li><a href="datatable_extension_state_saving.htm">State Saving</a></li>
+							<li><a href="datatable_extension_fixed_columns.htm">Fixed columns</a></li>
+							<li><a href="datatable_extension_fixed_header.htm">Fixed header</a></li>
+							<li><a href="datatable_extension_autofill.htm">Auto fill</a></li>
+							<li><a href="datatable_extension_key_table.htm">Key table</a></li>
+							<li><a href="datatable_extension_export_options.htm">Export options</a></li>
+							<li><a href="datatable_extension_columns_selection.htm">Columns selection</a></li>																					
+						</ul>
+					</li>	
+					<li><a href="datatable_responsive.htm"><i class="fa fa-arrows-alt"></i> <span>Responsive tables</span></a></li>					
+					<!-- /tables -->
+
+					<!-- Pages -->
+					<li class="navigation-header"><span>Pages</span> <i class="fa fa-file-o" title="Pages"></i></li>	
+					<li><a href="page_email.htm"><i class="fa fa-envelope"></i> <span>Email</span></a></li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-money"></i> <span>Invoice</span></a>
+						<ul>
+							<li><a href="invoice_list.htm">Invoice list</a></li>
+							<li><a href="invoice_template.htm">Invoice template</a></li>														
+						</ul>
+					</li>
+					<li><a href="timeline.htm"><i class="fa fa-file-text-o"></i> <span>Timeline</span></a></li>
+					<li><a href="page_tasks.htm"><i class="fa fa-tasks"></i> <span>Tasks</span></a></li>
+					<li><a href="gallery.htm"><i class="fa fa-file-image-o"></i> <span>Media Gallery</span></a></li>
+					<li><a href="search.htm"><i class="fa fa-search"></i> <span>Search</span></a></li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-users"></i> <span>User pages</span></a>
+						<ul>
+							<li><a href="user_cards.htm">Users cards</a></li>
+							<li><a href="user_list.htm">Users list</a></li>
+							<li><a href="user_profile.htm">Simple user profile</a></li>							
+						</ul>
+					</li>
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-user-plus"></i> <span>Login &amp; registration</span></a>
+						<ul>
+							<li><a href="login_simple.htm">User login</a></li>							
+							<li><a href="login_registration.htm">Simple registration</a></li>
+							<li><a href="login_registration_advanced.htm">Detailed registration</a></li>
+							<li><a href="login_unlock.htm">Unlock user</a></li>
+							<li><a href="login_recover.htm">Reset password</a></li>
+							<li><a href="login_tabbed.htm">Tabbed form</a></li>									
+						</ul>
+					</li>														
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-info-circle"></i> <span>Support</span></a>
+						<ul>
+							<li><a href="support_faq.htm">FAQ page</a></li>
+							<li><a href="support_knowledgebase.htm">Knowledgebase</a></li>
+							<li><a href="support_center.htm">Support Center</a></li>													
+						</ul>
+					</li>					
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-warning"></i> <span>Error pages</span></a>
+						<ul>
+							<li><a href="error_403.htm">Error 403</a></li>
+							<li><a href="error_404.htm">Error 404</a></li>
+							<li><a href="error_405.htm">Error 405</a></li>
+							<li><a href="error_500.htm">Error 500</a></li>
+							<li><a href="error_503.htm">Error 503</a></li>
+							<li><a href="error_offline.htm">Offline page</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.htm"><i class="fa fa-phone"></i> <span>Contact Page</span></a></li>
+					<!-- /pages -->
+					
+					<!-- Others -->
+					<li class="navigation-header"><span>Extras</span> <i class="fa fa-folder-o" title="Extras"></i></li>
+					<li><a href="page_starter.htm"><i class="fa fa-file-o"></i> <span>Starter Page</span></a></li>					
+					<li>
+						<a href="form_checkboxes_radios.htm#"><i class="fa fa-sitemap"></i> <span>Menu levels</span></a>
+						<ul>
+							<li><a href="form_checkboxes_radios.htm#">Second level</a></li>
+							<li>
+								<a href="form_checkboxes_radios.htm#">Second level with child</a>
+								<ul>
+									<li><a href="form_checkboxes_radios.htm#">Third level</a></li>
+									<li>
+										<a href="form_checkboxes_radios.htm#">Third level with child</a>
+										<ul>
+											<li><a href="form_checkboxes_radios.htm#">Fourth level</a></li>
+											<li><a href="form_checkboxes_radios.htm#">Fourth level</a></li>
+										</ul>
+									</li>
+									<li><a href="form_checkboxes_radios.htm#">Third level</a></li>
+								</ul>
+							</li>
+							<li><a href="form_checkboxes_radios.htm#">Second level</a></li>
+						</ul>
+					</li>
+					<!-- /Others -->
+
+				</ul>
+			</div>
+		</div>
+		<!-- /main navigation -->
+
+	</div>
+</div>
+<!-- /main sidebar -->
+<!-- Main content -->
+<div class="content-wrapper">
+
+	<!-- Page header -->
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-title">
+				<h4><i class="fa fa-pencil position-left"></i> Checkboxes &amp; radios</h4>
+			</div>										
+			<ul class="breadcrumb">
+				<li><a href="index.htm"><i class="fa fa-home"></i>Home</a></li>				
+				<li>Form components</li>
+				<li class="active">Checkboxes &amp; radios</li>
+			</ul>					
+		</div>
+	</div>
+	<!-- /page header -->
+
+	<!-- Content area -->
+	<div class="content">
+	
+		<h4>Checkboxes</h4>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left stacked default
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" checked="checked">
+								Checked default
+							</label>
+						</div>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox">
+								Unchecked default
+							</label>
+						</div>
+
+						<div class="checkbox disabled">
+							<label>
+								<input type="checkbox" checked="checked" disabled="disabled">
+								Disabled default
+							</label>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right stacked default
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-right">
+							<label>
+								<input type="checkbox" checked="checked">
+								Checked default
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right">
+							<label>
+								<input type="checkbox">
+								Unchecked default
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right disabled">
+							<label>
+								<input type="checkbox" checked="checked" disabled="disabled">
+								Disabled default
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left stacked styled
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" class="styled" checked="checked">
+								Checked styled
+							</label>
+						</div>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" class="styled">
+								Unchecked styled
+							</label>
+						</div>
+
+						<div class="checkbox disabled">
+							<label>
+								<input type="checkbox" class="styled" disabled="disabled">
+								Disabled styled
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right stacked styled
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-right">
+							<label>
+								<input type="checkbox" class="styled" checked="checked">
+								Checked styled
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right">
+							<label>
+								<input type="checkbox" class="styled">
+								Unchecked styled
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right disabled">
+							<label>
+								<input type="checkbox" class="styled" checked="checked" disabled="disabled">
+								Disabled styled
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left inline default
+						</h4>				
+					</div>
+					<div class="panel-body">				
+						<label class="checkbox-inline">
+							<input type="checkbox" checked="checked">
+							Checked default
+						</label>
+
+						<label class="checkbox-inline">
+							<input type="checkbox">
+							Unchecked default
+						</label>						
+					</div>
+				</div>
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right inline default
+						</h4>				
+					</div>
+					<div class="panel-body">						
+						<label class="checkbox-inline checkbox-right">
+							<input type="checkbox" checked="checked">
+							Checked default
+						</label>
+
+						<label class="checkbox-inline checkbox-right">
+							<input type="checkbox">
+							Unchecked default
+						</label>					
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left inline styled
+						</h4>				
+					</div>
+					<div class="panel-body">						
+						<label class="checkbox-inline">
+							<input type="checkbox" class="styled" checked="checked">
+							Checked styled
+						</label>
+
+						<label class="checkbox-inline">
+							<input type="checkbox" class="styled">
+							Unchecked styled
+						</label>						
+					</div>
+				</div>
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right inline styled
+						</h4>				
+					</div>
+					<div class="panel-body">						
+						<label class="checkbox-inline checkbox-right">
+							<input type="checkbox" class="styled" checked="checked">
+							Checked styled
+						</label>
+
+						<label class="checkbox-inline checkbox-right">
+							<input type="checkbox" class="styled">
+							Unchecked styled
+						</label>					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h4>Radio buttons</h4>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left stacked default
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="radio">
+							<label>
+								<input type="radio" name="unstyled-radio-left" checked="checked">
+								Selected default
+							</label>
+						</div>
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="unstyled-radio-left">
+								Unselected default
+							</label>
+						</div>
+
+						<div class="radio disabled">
+							<label>
+								<input type="radio" checked="checked" disabled="disabled">
+								Disabled default
+							</label>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right stacked default
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="radio radio-right">
+							<label>
+								<input type="radio" name="unstyled-radio-right" checked="checked">
+								Selected default
+							</label>
+						</div>
+
+						<div class="radio radio-right">
+							<label>
+								<input type="radio" name="unstyled-radio-right">
+								Unselected default
+							</label>
+						</div>
+
+						<div class="radio radio-right disabled">
+							<label>
+								<input type="radio" checked="checked" disabled="disabled">
+								Disabled default
+							</label>
+						</div>							
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left stacked styled
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="radio">
+							<label>
+								<input type="radio" name="stacked-radio-left" class="styled" checked="checked">
+								Selected styled
+							</label>
+						</div>
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="stacked-radio-left" class="styled">
+								Unselected styled
+							</label>
+						</div>
+
+						<div class="radio disabled">
+							<label>
+								<input type="radio" class="styled" disabled="disabled">
+								Disabled styled
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right stacked styled
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="radio radio-right">
+							<label>
+								<input type="radio" name="stacked-radio-right" class="styled" checked="checked">
+								Selected styled
+							</label>
+						</div>
+
+						<div class="radio radio-right">
+							<label>
+								<input type="radio" name="stacked-radio-right" class="styled">
+								Unselected styled
+							</label>
+						</div>
+
+						<div class="radio radio-right disabled">
+							<label>
+								<input type="radio" class="styled" checked="checked" disabled="disabled">
+								Disabled styled
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left inline default
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<label class="radio-inline">
+							<input type="radio" name="radio-unstyled-inline-left" checked="checked">
+							Selected default
+						</label>
+
+						<label class="radio-inline">
+							<input type="radio" name="radio-unstyled-inline-left">
+							Unselected default
+						</label>				
+					</div>
+				</div>
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right inline default
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<label class="radio-inline radio-right">
+							<input type="radio" name="radio-unstyled-inline-right" checked="checked">
+							Selected default
+						</label>
+
+						<label class="radio-inline radio-right">
+							<input type="radio" name="radio-unstyled-inline-right">
+							Unselected default
+						</label>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Left inline styled
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<label class="radio-inline">
+							<input type="radio" name="radio-inline-left" class="styled" checked="checked">
+							Selected styled
+						</label>
+
+						<label class="radio-inline">
+							<input type="radio" name="radio-inline-left" class="styled">
+							Unselected styled
+						</label>	
+					</div>
+				</div>
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right inline styled
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<label class="radio-inline radio-right">
+							<input type="radio" name="radio-inline-right" class="styled" checked="checked">
+							Selected styled
+						</label>
+
+						<label class="radio-inline radio-right">
+							<input type="radio" name="radio-inline-right" class="styled">
+							Unselected styled
+						</label>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h4>Color options</h4>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Checkboxes
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="control-primary" checked="checked">
+										Primary checkbox
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="control-danger" checked="checked">
+										Danger checkbox
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="control-success" checked="checked">
+										Success checkbox
+									</label>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="control-warning" checked="checked">
+										Warning checkbox
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="control-info" checked="checked">
+										Info checkbox
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" class="control-custom" checked="checked">
+										Custom color
+									</label>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Radio buttons
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="radio">
+									<label>
+										<input type="radio" name="radio-styled-color" class="control-primary" checked="checked">
+										Primary radio
+									</label>
+								</div>
+
+								<div class="radio">
+									<label>
+										<input type="radio" name="radio-styled-color" class="control-danger">
+										Danger radio
+									</label>
+								</div>
+
+								<div class="radio">
+									<label>
+										<input type="radio" name="radio-styled-color" class="control-success">
+										Success radio
+									</label>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="radio">
+									<label>
+										<input type="radio" name="radio-styled-color" class="control-warning">
+										Warning radio
+									</label>
+								</div>
+
+								<div class="radio">
+									<label>
+										<input type="radio" name="radio-styled-color" class="control-info">
+										Info radio
+									</label>
+								</div>
+
+								<div class="radio">
+									<label>
+										<input type="radio" name="radio-styled-color" class="control-custom">
+										Custom color
+									</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>			
+		</div>
+		
+		<h4>Bootstrap switches</h4>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Switch states
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" checked="checked">
+										Checked switch
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" checked="checked" disabled="disabled">
+										Checked disabled
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" readonly="readonly" checked="checked">
+										Checked readonly
+									</label>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch">
+										Unchecked switch
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" disabled="disabled">
+										Unchecked disabled
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" readonly="readonly">
+										Unchecked readonly
+									</label>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Switch colors
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-on-color="default" data-off-color="danger" checked="checked">
+										Default color
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-on-color="primary" data-off-color="default" checked="checked">
+										Primary color
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-on-color="danger" data-off-color="default" checked="checked">
+										Danger color
+									</label>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-on-color="success" data-off-color="default" checked="checked">
+										Success color
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-on-color="warning" data-off-color="default" checked="checked">
+										Warning color
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-on-color="info" data-off-color="default" checked="checked">
+										Info color
+									</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Switch sizes
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-size="large" checked="checked">
+										Large switch
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" data-size="small" checked="checked">
+										Small switch
+									</label>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" checked="checked">
+										Default switch
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-text="On" data-off-text="Off" class="switch" data-size="mini" checked="checked">
+										Mini switch
+									</label>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Label options
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-off-color="danger" data-on-text="Yes" data-off-text="No" class="switch" checked="checked">
+										Default text
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-color="warning" data-off-color="info" data-on-text="<i class='fa fa-link'></i>" data-off-text="<i class='fa fa-unlink'></i>" class="switch" checked="checked">
+										Icons only
+									</label>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-color="danger" data-off-color="primary" data-on-text="Enable" data-off-text="Disable" class="switch" checked="checked">
+										Enable/Disable
+									</label>
+								</div>
+
+								<div class="checkbox checkbox-switch">
+									<label>
+										<input type="checkbox" data-on-color="success" data-off-color="danger" data-on-text="Online" data-off-text="Offline" class="switch" checked="checked">
+										Online/Offline
+									</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h4>Switchery toggles</h4>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Default switchers
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked">
+								Checked switch
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery">
+								Unchecked switch
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery disabled">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked" disabled="disabled">
+								Checked disabled
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery disabled">
+							<label>
+								<input type="checkbox" class="switchery" disabled="disabled">
+								Unchecked disabled
+							</label>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Switcher colors
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery-primary" checked="checked">
+								Switch in <span class="text-semibold">primary</span> context
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery-danger" checked="checked">
+								Switch in <span class="text-semibold">danger</span> context
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery-info" checked="checked">
+								Switch in <span class="text-semibold">info</span> context
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery-warning" checked="checked">
+								Switch in <span class="text-semibold">warning</span> context
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Single label
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-switchery switchery-lg">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked">
+								Large size
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked">
+								Default size
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery switchery-sm">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked">
+								Small size
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery switchery-xs">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked">
+								Mini size
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Multiple labels
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-switchery switchery-lg switchery-double">
+							<label>
+								Option 1
+								<input type="checkbox" class="switchery" checked="checked">
+								Option 2
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery switchery-double">
+							<label>
+								Option 1
+								<input type="checkbox" class="switchery" checked="checked">
+								Option 2
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery switchery-sm switchery-double">
+							<label>
+								Option 1
+								<input type="checkbox" class="switchery" checked="checked">
+								Option 2
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-switchery switchery-xs switchery-double">
+							<label>
+								Option 1
+								<input type="checkbox" class="switchery" checked="checked">
+								Option 2
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Right alignment
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-right checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked">
+								Checked switch
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right checkbox-switchery">
+							<label>
+								<input type="checkbox" class="switchery">
+								Unchecked switch
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right checkbox-switchery disabled">
+							<label>
+								<input type="checkbox" class="switchery" checked="checked" disabled="disabled">
+								Checked disabled
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right checkbox-switchery disabled">
+							<label>
+								<input type="checkbox" class="switchery" disabled="disabled">
+								Unchecked disabled
+							</label>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						Sticked to the right
+						</h4>				
+					</div>
+					<div class="panel-body">
+						<div class="checkbox checkbox-right checkbox-switchery">
+							<label class="display-block">
+								<input type="checkbox" class="switchery" checked="checked">
+								Checked switch
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right checkbox-switchery">
+							<label class="display-block">
+								<input type="checkbox" class="switchery">
+								Unchecked switch
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right checkbox-switchery disabled">
+							<label class="display-block">
+								<input type="checkbox" class="switchery" checked="checked" disabled="disabled">
+								Checked disabled
+							</label>
+						</div>
+
+						<div class="checkbox checkbox-right checkbox-switchery disabled">
+							<label class="display-block">
+								<input type="checkbox" class="switchery" disabled="disabled">
+								Unchecked disabled
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>				
+	<!-- Content area -->
+		
+<script type='text/javascript'>
+	$(document).ready(function() {		
+		$(function() {	
+		
+			// Switchery
+			// ------------------------------
+			// Initialize multiple switches
+			if (Array.prototype.forEach) {
+				var elems = Array.prototype.slice.call(document.querySelectorAll('.switchery'));
+				elems.forEach(function(html) {
+					var switchery = new Switchery(html);
+				});
+			}
+			else {
+				var elems = document.querySelectorAll('.switchery');
+				for (var i = 0; i < elems.length; i++) {
+					var switchery = new Switchery(elems[i]);
+				}
+			}
+
+			// Colored switches
+			var primary = document.querySelector('.switchery-primary');
+			var switchery = new Switchery(primary, { color: '#2196F3' });
+
+			var danger = document.querySelector('.switchery-danger');
+			var switchery = new Switchery(danger, { color: '#EF5350' });
+
+			var warning = document.querySelector('.switchery-warning');
+			var switchery = new Switchery(warning, { color: '#FF7043' });
+
+			var info = document.querySelector('.switchery-info');
+			var switchery = new Switchery(info, { color: '#00BCD4'});
+
+			// Checkboxes/radios (Uniform)
+			// ------------------------------
+			// Default initialization
+			$(".styled, .multiselect-container input").uniform({
+				radioClass: 'choice'
+			});
+
+			// File input
+			$(".file-styled").uniform({
+				wrapperClass: 'bg-blue',
+				fileButtonHtml: '<i class="fa fa-plus"></i>'
+			});
+
+			//
+			// Contextual colors
+			// Primary
+			$(".control-primary").uniform({
+				radioClass: 'choice',
+				wrapperClass: 'border-primary-600 text-primary-800'
+			});
+
+			// Danger
+			$(".control-danger").uniform({
+				radioClass: 'choice',
+				wrapperClass: 'border-danger-600 text-danger-800'
+			});
+
+			// Success
+			$(".control-success").uniform({
+				radioClass: 'choice',
+				wrapperClass: 'border-success-600 text-success-800'
+			});
+
+			// Warning
+			$(".control-warning").uniform({
+				radioClass: 'choice',
+				wrapperClass: 'border-warning-600 text-warning-800'
+			});
+
+			// Info
+			$(".control-info").uniform({
+				radioClass: 'choice',
+				wrapperClass: 'border-info-600 text-info-800'
+			});
+
+			// Custom color
+			$(".control-custom").uniform({
+				radioClass: 'choice',
+				wrapperClass: 'border-indigo-600 text-indigo-800'
+			});
+
+			// Bootstrap switch
+			// ------------------------------
+			$(".switch").bootstrapSwitch();
+		});
+	});
+</script>
+					<!-- Footer -->
+					<div class="footer pt-20">
+						&copy; 2016 Bird - Admin theme by <a href="http://followtechnique.com" target="_blank">FollowTechnique</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Version - 1.0.0
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+		
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+</body>
+</html>
