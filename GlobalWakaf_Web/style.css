@@ -1,68 +1,7 @@
- /*
- Project: Politics
- Version: 1.1
- @Author: FineLayers
- This file contains the styling for the actual theme, this
- is the file you need to edit to change the look of the
- theme.
- However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- This files contents are outlined below.
- 01.	Theme Reset Style
- 03.	Global Elements
- 04.	Home Page 1
-		+Header
-			-Logo Bar
-			-Nav Holder
-			-Nav List
-			-Banner
-		+Main Content
-			-About Contribution
-			-Quick Links
-			-Video Section
-			-Srvices
-			-Featured News
-			-Event Section
-			-Event Acounter
-			-Media Wall
-			-Testimonial
-			-Facts Acounters
-			-Team
-			-ProductsBrands Icons
-			-Brands Icons
-		+Footer
-			-Footer Links
-			-Subscribe
-			-Footer Social
-			-Footer Twittews
- 05.	Home Page 2
- 06.	Inner Banner
- 07.	Blog Pages
-			-Blog Pages Global
-			-Blog 1
-			-Blog 1
-			-Blog Detail
-			-Blog Detail 2
- 08.	Team Pages
-	 		-Team
-	 		-Team Derail
- 09.	Gallery Pages
- 			-Gallery
- 			-Gallery Detail
- 10.	Events Pages
- 			-Event 
- 			-Event Detail 
- 12.	Contact Us
- 13.	News
- 14.	Speechs
- 15.	About Us
- 16.	Donation
-*/
 
-/****** Theme Reset Style ***********************************************************
-*********************************************************** Theme Reset Style ******/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 body{font-size: 14px;color: #000;font-family: 'Roboto', sans-serif;background: url(assets/images/bg.png) repeat fixed;}
-body h1, body h2, body h3, body h4, body h5, body h6{margin: 0 0 20px;color: #464a5a;font-family: 'Roboto', sans-serif;font-weight: bold;}
+body h1, body h2, body h3, body h4, body h5, body h6{margin: 0 0 20px;color: #333;font-family: 'Roboto', sans-serif;font-weight: bold;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{ color: #464a5a;}
 
 p a{ color: #464a5a;}
@@ -130,7 +69,7 @@ text-transform: uppercase; color: #fff; font-weight: bold; border-radius: 0;}
 .btn.sm{font-size: 16px;font-weight: 700;margin: 0px;letter-spacing: 1px;margin-top: 18px;}
 .btn:hover{ background: #131e36; color: #fff;}
 .btn.dark{ background: #464a5a;}
-.btn.lg{ height: 60px; line-height: 60px; min-width: 200px; font-size: 16px; border-radius: 3px;}
+.btn.lg{height: 60px;line-height: 60px;min-width: 200px;font-size: 16px;border-radius: 3px;background: #eb1b2b;}
 .btn.full-width{ width: 100%!important;}
 .btn.light{ background: none; border: 1px solid #d7d7d7; color: #6b6e7b; font-weight: normal; text-transform: capitalize;}
 .btn i{ margin: 0 10px 0 0;}
@@ -157,10 +96,10 @@ text-transform: uppercase; color: #fff; font-weight: bold; border-radius: 0;}
 .tc-breadcrumb li::before{ float: left; line-height: 22px; content: "\f111"; font-family: fontawesome; margin: 0 10px; font-size: 7px;}
 .tc-breadcrumb li:first-child::before{ display: none; margin: 0;}
 
-.social-icons{ overflow: hidden;}
+.social-icons{overflow: hidden;position: absolute;left: 206px;}
 .social-icons li{ float: left; margin: 0 0 0 10px;}
 .social-icons li:first-child{ margin: 0;}
-.social-icons li a{ color: #ccc; font-size: 24px;}
+.social-icons li a{font-size: 29px;}
 
 .rating-stars ul li{ float: left; margin: 0 0 0 7px;}
 .rating-stars ul li:first-child{ margin: 0}
@@ -279,7 +218,7 @@ ul{ margin: 0; padding: 0; list-style: none;}
 .multipul-lines li{ width: 10%; height: 4px; float: left;}
 .multipul-lines li.bg-2{ background: #b7ada3;} 
 .multipul-lines li.bg-3{background: #127F43;} 
-.logo-bar .left-side{ padding: 30px 0;}
+.logo-bar .left-side{padding: 24px 0;}
 .logo-bar .left-side p{ text-transform: uppercase; color: #b7ada3;}
 .logo-bar .logo{padding: 0px;margin: 0 30px;text-align: center;border-left: 1px solid #ededed;border-right: 1px solid #ededed;}
 .logo-bar .right-side{padding: 0px;overflow: hidden;}
@@ -437,7 +376,7 @@ font-weight: bold; height: 22px; line-height: 21px; padding: 0 3px; position: re
 .event-map{ height: 700px; position: relative; z-index: 2;}
 .event-overlay{ position: absolute; left: 0; top: 0; height: 100%; width: 100%;}
 .event-heading{ float: right; margin: 0 0 40px 0;}
-.event-heading h2{text-transform: uppercase;line-height: 36px;font-size: 30px;margin: 0 0 10px;font-weight: 400;line-height: 1.4;color: #FFF;}
+.event-heading h2{text-transform: uppercase;line-height: 36px;font-size: 30px;margin: 0 0 10px;font-weight: 500;line-height: 1.4;color: #FFF;}
 .event-heading strong{font-size: 15px;text-transform: uppercase;font-weight: 300;font-family: 'Roboto', sans-serif;letter-spacing: 1px;color: #FFF !important;}
 .event-heading strong i{ height: 20px; width: 20px; text-align: center; line-height: 20px; margin: 0 0 0 10px;
 background: #d3d3d3; border-radius: 3px; color: #fff;}
@@ -509,10 +448,10 @@ border-color: #fff transparent transparent transparent;}
 
 /* Facts Acounters */
 .facts-lsit li{ position: relative; z-index: 2;}
-.facts-lsit li::before{content: "";position: absolute;left: -30px;top: -30px;height: 150px;width: 118px;z-index: -1;border-top: none;background: #f9f9f9;}
+.facts-lsit li::before{content: "";position: absolute;left: -30px;top: -30px;height: 150px;width: 118px;z-index: -1;border-top: none;background: transparent;}
 .facts-lsit li{ float: left; width: 25%;}
-.facts-lsit li h6{font-size: 14px;color: #000;font-weight: 300;letter-spacing: 1px;font-size: 18px;}
-.facts-lsit li h2{margin: 0;font-size: 46px;display: inline-block;color: #02680C !important;}
+.facts-lsit li h6{font-size: 14px;color: #FFF;font-weight: 300;letter-spacing: 1px;font-size: 18px;}
+.facts-lsit li h2{margin: 0;font-size: 46px;display: inline-block;color: #FFF!important;}
 .facts-lsit li span{font-size: 46px;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 0;color: #127F43 !important;}
 
 /* Team */
@@ -562,10 +501,10 @@ height: 10px; width: 10px;}
 .brands-icon-slider li{ display: inline-block;}
 
 /****** Footer ******/
-.footer{ position: relative; z-index: 2; background: #2d303c; overflow: hidden;}
+.footer{position: relative;z-index: 2;background: #2B2B2B;overflow: hidden;}
 
 /* Footer Links */
-.footer-content{ border-right: 1px solid #3d3f43;}
+.footer-content{border-right: 1px solid #333;}
 .footer-likns-holder{ padding: 0 0 40px;}
 .footer-links li{ margin: 0 0 10px;}
 .footer-links li:last-child{ margin: 0;}
@@ -573,10 +512,8 @@ height: 10px; width: 10px;}
 .footer-links li a:hover{ margin-left: 10px;}
 
 /* Subscribe */
-.subscribe{ padding: 40px 40px 40px 0; position: relative; background: #272a33; z-index: 1;
-border-top: 1px solid #3d3f43; border-bottom: 1px solid #3d3f43;}
-.subscribe::before{ content: ""; position: absolute; right: 100%; top: -1px; height: 101%; width: 100%; background: #272a33; z-index: -1;
-border-top: 1px solid #3d3f43; border-bottom: 1px solid #3d3f43;}
+.subscribe{padding: 40px 40px 40px 0;position: relative;background: #333;z-index: 1;}
+.subscribe::before{content: "";position: absolute;right: 100%;top: -1px;height: 101%;width: 100%;background: #333;z-index: -1;}
 .subscribe h4{ margin: 0 0 15px; font-size: 18px; text-transform: uppercase; color: #fff;}
 .subscribe form .form-control{ float: left; width: 70%; height: 60px; line-height: 60px; background: #fff; color: #a3a3a3; border: 0; 
 border-radius: 7px;}
@@ -853,7 +790,7 @@ transition: all 1s ease-in-out;}
 .about-text p{ font-size: 16px; margin: 0 0 30px;}
 
 /* Video Gallery */
-.gallery-figure.style-3{ border: 0!important; border-radius: 0; margin: 15px 0;}
+.gallery-figure.style-3{border: 0!important;border-radius: 0;margin: 15px 0;background: #FFF;width: 94%;}
 .gallery-figure.style-3 .play-icon{ height: 60px; line-height: 70px; width: 90px; margin: 0; border-radius: 10px;
 background: rgba(255,255,255,0.6); border: 0; left: 80%; top: 80%;}
 .gallery-figure.style-3:hover .play-icon{ left: 50%; top: 50%;}
@@ -1747,4 +1684,41 @@ border-radius: 100%; background: #fff; border: 1px solid #e6e6e6; text-align: ce
 .img-intro {}
 .green-bg {background: #1D4C2F;}
 .quick-links {margin-top:30px;}
-.facts-section {background: #f3f3f3;}
+.facts-section {background: #1E824C;}
+.tmp-login {text-transform: uppercase;float: left;padding-right: 15px;font-weight: 900;color:#333;position: relative;top: 5px;font-size: 13px;}
+.w-fb { color: #3B5997; }
+.w-tw { color: #1DA1F3; }
+.w-ig { color: #8F40AB; }
+.w-youtube {color: #EC2929;}
+.w-gp { color: #CF3427; }
+.tmp-detail {}
+.tmp-brt-detail {
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000;
+    font-size: 16px;
+}
+.news-detail {
+    padding: 15px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    height: 262px;
+    padding-bottom: 29px;
+    overflow: hidden;
+}
+.news-detail h3 {
+    font-size: 17px;
+    line-height: 1.4;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tmp-news {margin-top:20px;overflow: hidden;}
+.tmp-news img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 229px;
+    width: 100%;
+}
+.sec-news {background: #F2F2F2;padding-bottom: 50px;}

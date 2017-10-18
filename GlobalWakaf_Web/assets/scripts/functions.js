@@ -348,13 +348,14 @@ jQuery( document ).ready(function( $ ) {
       },
       marker:{
         values:[
-          {address:"66000 Newyork, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
-          {address:"96000 Perpignan, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
-          {address:"16000 san Francisco, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
-          {address:"26000 Diego, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
-          {address:"26000 Houston, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
-          {address:"26000 san brest, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
-          {address:"26000 clermmont, France", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}}
+          {address:"Cileungsi Bogor", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Padang Sumatera Barat", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Medan Sumatera Utara", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Aceh", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Yogyakarta", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Alor", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Lombok", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}},
+          {address:"Balikpapan", data:"Perpignan ! GO USAP !", options:{icon: "assets/images/map-marker.png"}}
         ],
         options:{
           draggable: false
@@ -389,7 +390,7 @@ jQuery( document ).ready(function( $ ) {
     // ------- Contact Google Map  ------- // 
     jQuery("#contact-map").gmap3({
         marker: {
-            address: "Haltern am See, Weseler Str. 151"
+            address: "Menara 165"
         },
         map: {
             options: {
